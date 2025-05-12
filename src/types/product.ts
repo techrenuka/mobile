@@ -1,0 +1,32 @@
+export type Product = {
+  id: number;
+  brand_name: string;
+  rating: number;
+  title: string;
+  price: number;
+  imgs?: {
+    thumbnails: string[];
+    previews: string[];
+  };
+  has_5g?: boolean;
+  has_nfc: boolean;
+  has_ir_blaster: boolean;
+  processor_brand: string;
+  num_cores: number;
+  processor_speed: number;
+  battery_capacity: number;
+  fast_charging_available: number;
+  fast_charging: number;
+  ram_capacity: number;
+  internal_memory: number;
+  screen_size: number;
+  refresh_rate: number;
+  resolution: string;
+  num_rear_cameras: number;
+  num_front_cameras: number;
+  os: string;
+  primary_camera_rear: number;
+  primary_camera_front: number;
+  extended_memory_available: number;
+  extended_upto: number | null;
+};
