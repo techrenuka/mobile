@@ -28,7 +28,7 @@ const CustomSelect = ({ options }) => {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, []);
+  }, [isOpen, toggleDropdown]); // Added missing dependencies
 
   return (
     <div className="dropdown-content custom-select relative" style={{ width: "200px" }}>
