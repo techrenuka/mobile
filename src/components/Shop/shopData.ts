@@ -3,7 +3,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 11 5G",
-      "price": 54999,
+      "price": 649,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -41,7 +41,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord CE 2 Lite 5G",
-      "price": 19989,
+      "price": 249,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": false,
@@ -79,7 +79,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A14 5G",
-      "price": 16499,
+      "price": 199,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": false,
@@ -117,7 +117,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G62 5G",
-      "price": 14999,
+      "price": 199,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": false,
@@ -155,7 +155,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 10 Pro Plus",
-      "price": 24999,
+      "price": 299,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -193,7 +193,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy F23 5G (6GB RAM + 128GB)",
-      "price": 16999,
+      "price": 199,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": true,
@@ -231,7 +231,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 14",
-      "price": 65999,
+      "price": 799,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": true,
@@ -269,7 +269,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 12 Pro Plus",
-      "price": 29999,
+      "price": 349,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": false,
@@ -307,7 +307,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nothing",
       "title": "Nothing Phone 1",
-      "price": 26749,
+      "price": 349,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -345,7 +345,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord 2T 5G",
-      "price": 28999,
+      "price": 349,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -383,7 +383,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 10 Pro",
-      "price": 18999,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -421,7 +421,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo A78",
-      "price": 18999,
+      "price": 249,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": true,
@@ -459,7 +459,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 12 Pro 5G",
-      "price": 24762,
+      "price": 299,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -497,7 +497,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo T1 5G (6GB RAM + 128GB)",
-      "price": 16990,
+      "price": 199,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -535,7 +535,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S23 Ultra 5G",
-      "price": 114990,
+      "price": 1349,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -573,7 +573,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 13",
-      "price": 62999,
+      "price": 749,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": true,
@@ -611,7 +611,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y16",
-      "price": 9999,
+      "price": 149,
       "rating": 65.0,
       "has_5g": false,
       "has_nfc": false,
@@ -649,7 +649,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno 9 Pro Plus",
-      "price": 45999,
+      "price": 549,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -687,7 +687,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 10R 5G",
-      "price": 32999,
+      "price": 399,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -725,7 +725,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y22",
-      "price": 14499,
+      "price": 149,
       "rating": 72.0,
       "has_5g": false,
       "has_nfc": false,
@@ -763,7 +763,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 11R",
-      "price": 39999,
+      "price": 449,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -801,7 +801,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V25 Pro 5G",
-      "price": 35999,
+      "price": 449,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -839,7 +839,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco X4 Pro 5G",
-      "price": 14999,
+      "price": 199,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -877,7 +877,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 12",
-      "price": 17859,
+      "price": 249,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": false,
@@ -915,7 +915,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V26 Pro",
-      "price": 42990,
+      "price": 549,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -953,7 +953,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S20 FE 5G",
-      "price": 31239,
+      "price": 349,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -991,7 +991,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord CE 2 Lite 5G (8GB RAM + 128GB)",
-      "price": 21995,
+      "price": 249,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -1029,7 +1029,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 14 Pro Max",
-      "price": 129990,
+      "price": 1549,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": true,
@@ -1067,7 +1067,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V25 5G",
-      "price": 27999,
+      "price": 349,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -1105,7 +1105,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 11 Pro",
-      "price": 69999,
+      "price": 849,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -1143,7 +1143,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 10 Pro (8GB RAM + 128GB)",
-      "price": 19999,
+      "price": 249,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -1181,7 +1181,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco X5 Pro",
-      "price": 20999,
+      "price": 249,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": true,
@@ -1219,7 +1219,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V27",
-      "price": 27990,
+      "price": 349,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -1257,7 +1257,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 11",
-      "price": 38999,
+      "price": 449,
       "rating": 73.0,
       "has_5g": false,
       "has_nfc": true,
@@ -1295,7 +1295,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M53 5G",
-      "price": 23790,
+      "price": 299,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -1333,7 +1333,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S21 FE 5G",
-      "price": 39999,
+      "price": 449,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -1371,7 +1371,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo Reno 8T",
-      "price": 29990,
+      "price": 349,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -1409,7 +1409,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S22 Ultra 5G",
-      "price": 91999,
+      "price": 1099,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -1447,7 +1447,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 12 Pro Max 5G",
-      "price": 32999,
+      "price": 399,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -1485,7 +1485,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno 9 5G",
-      "price": 28499,
+      "price": 349,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -1523,7 +1523,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord CE 3 5G",
-      "price": 21999,
+      "price": 249,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -1561,7 +1561,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11 Pro Plus 5G",
-      "price": 19999,
+      "price": 249,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -1599,7 +1599,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Edge 20 Fusion 5G",
-      "price": 18999,
+      "price": 249,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -1637,7 +1637,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 10 Pro Plus (8GB RAM + 256GB)",
-      "price": 27999,
+      "price": 349,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -1675,7 +1675,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y35",
-      "price": 18499,
+      "price": 249,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -1713,7 +1713,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M33 5G",
-      "price": 17478,
+      "price": 249,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": true,
@@ -1751,7 +1751,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11",
-      "price": 11936,
+      "price": 149,
       "rating": 76.0,
       "has_5g": false,
       "has_nfc": false,
@@ -1789,7 +1789,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C33",
-      "price": 8950,
+      "price": 149,
       "rating": 64.0,
       "has_5g": false,
       "has_nfc": false,
@@ -1827,7 +1827,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y16 (4GB RAM + 64GB)",
-      "price": 12489,
+      "price": 149,
       "rating": 68.0,
       "has_5g": false,
       "has_nfc": false,
@@ -1865,7 +1865,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A74 5G",
-      "price": 42999,
+      "price": 549,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -1903,7 +1903,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A14 5G (6GB RAM + 128GB)",
-      "price": 18999,
+      "price": 249,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -1941,7 +1941,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Neo 7 5G",
-      "price": 29999,
+      "price": 349,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": true,
@@ -1979,7 +1979,7 @@ const shopData: Product[] = [
     {
       "brand_name": "jio",
       "title": "Jio JioPhone 5G",
-      "price": 11990,
+      "price": 149,
       "rating": 64.0,
       "has_5g": true,
       "has_nfc": false,
@@ -2017,7 +2017,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G82 5G",
-      "price": 18999,
+      "price": 249,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -2055,7 +2055,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 10",
-      "price": 13999,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -2093,7 +2093,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9i 5G",
-      "price": 14965,
+      "price": 199,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": false,
@@ -2131,7 +2131,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 14 Plus",
-      "price": 74999,
+      "price": 899,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": true,
@@ -2169,7 +2169,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 10S",
-      "price": 10999,
+      "price": 149,
       "rating": 78.0,
       "has_5g": false,
       "has_nfc": false,
@@ -2207,7 +2207,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S23 Plus",
-      "price": 84990,
+      "price": 999,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -2245,7 +2245,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G32",
-      "price": 10499,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -2283,7 +2283,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 13 Pro 5G",
-      "price": 17990,
+      "price": 249,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": true,
@@ -2321,7 +2321,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo S16",
-      "price": 29990,
+      "price": 349,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -2359,7 +2359,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A23",
-      "price": 18499,
+      "price": 249,
       "rating": 79.0,
       "has_5g": false,
       "has_nfc": false,
@@ -2397,7 +2397,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y22 (6GB RAM + 128GB)",
-      "price": 16499,
+      "price": 199,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -2435,7 +2435,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco M4 Pro 5G (6GB RAM + 128GB)",
-      "price": 14999,
+      "price": 199,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": false,
@@ -2473,7 +2473,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo S16 Pro",
-      "price": 35499,
+      "price": 449,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -2511,7 +2511,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 10 Pro 5G",
-      "price": 60999,
+      "price": 749,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -2549,7 +2549,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 12 Pro Plus (12GB RAM + 256GB)",
-      "price": 32999,
+      "price": 399,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": false,
@@ -2587,7 +2587,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy F23 5G",
-      "price": 15999,
+      "price": 199,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": true,
@@ -2625,7 +2625,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo Find N Fold",
-      "price": 99990,
+      "price": 1199,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -2663,7 +2663,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A17K",
-      "price": 9499,
+      "price": 149,
       "rating": 62.0,
       "has_5g": false,
       "has_nfc": false,
@@ -2701,7 +2701,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V23 5G (12GB RAM + 256GB)",
-      "price": 27994,
+      "price": 349,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": false,
@@ -2739,7 +2739,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Z6 Lite 5G",
-      "price": 13989,
+      "price": 149,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": false,
@@ -2777,7 +2777,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 10T",
-      "price": 44999,
+      "price": 549,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -2815,7 +2815,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 10T 5G (6GB RAM +128GB)",
-      "price": 13999,
+      "price": 149,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -2853,7 +2853,7 @@ const shopData: Product[] = [
     {
       "brand_name": "gionee",
       "title": "Gionee G13 Pro",
-      "price": 6190,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -2891,7 +2891,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 13 Pro",
-      "price": 119900,
+      "price": 1449,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -2929,7 +2929,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO F22 Pro",
-      "price": 27660,
+      "price": 349,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -2967,7 +2967,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A34 5G",
-      "price": 24999,
+      "price": 299,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": true,
@@ -3005,7 +3005,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 10A (4GB RAM + 64GB)",
-      "price": 8388,
+      "price": 99,
       "rating": 66.0,
       "has_5g": false,
       "has_nfc": false,
@@ -3043,7 +3043,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G72 4G",
-      "price": 15999,
+      "price": 199,
       "rating": 83.0,
       "has_5g": false,
       "has_nfc": true,
@@ -3081,7 +3081,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A14 5G (8GB RAM + 128GB)",
-      "price": 20999,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -3119,7 +3119,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9 5G",
-      "price": 13999,
+      "price": 149,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": false,
@@ -3157,7 +3157,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo T1 5G (8GB RAM + 128GB)",
-      "price": 19990,
+      "price": 249,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -3195,7 +3195,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M13 5G",
-      "price": 13999,
+      "price": 149,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": false,
@@ -3233,7 +3233,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Edge 30 5G",
-      "price": 22999,
+      "price": 249,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -3271,7 +3271,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A23 5G",
-      "price": 22999,
+      "price": 249,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -3309,7 +3309,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO K10 5G",
-      "price": 16999,
+      "price": 199,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -3347,7 +3347,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11 (6GB RAM + 128GB)",
-      "price": 14290,
+      "price": 149,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -3385,7 +3385,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A73 5G",
-      "price": 41999,
+      "price": 499,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -3423,7 +3423,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y21 2021",
-      "price": 13489,
+      "price": 149,
       "rating": 69.0,
       "has_5g": false,
       "has_nfc": false,
@@ -3461,7 +3461,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Ace Racing Edition 5G",
-      "price": 22990,
+      "price": 249,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -3499,7 +3499,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G62 (8GB RAM + 128GB)",
-      "price": 16499,
+      "price": 199,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -3537,7 +3537,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo X90 Pro Plus 5G",
-      "price": 73999,
+      "price": 849,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -3575,7 +3575,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C33 (4GB RAM + 64GB)",
-      "price": 9999,
+      "price": 149,
       "rating": 67.0,
       "has_5g": false,
       "has_nfc": false,
@@ -3613,7 +3613,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9i",
-      "price": 12499,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -3651,7 +3651,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A17",
-      "price": 12499,
+      "price": 149,
       "rating": 72.0,
       "has_5g": false,
       "has_nfc": false,
@@ -3689,7 +3689,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO 11 5G",
-      "price": 59999,
+      "price": 749,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -3727,7 +3727,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo X Fold 5G",
-      "price": 106990,
+      "price": 1249,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -3765,7 +3765,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo T1 5G",
-      "price": 15990,
+      "price": 199,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": false,
@@ -3803,7 +3803,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 14 Pro",
-      "price": 119990,
+      "price": 1449,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": true,
@@ -3841,7 +3841,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11 Pro Max 5G",
-      "price": 19999,
+      "price": 249,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -3879,7 +3879,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto S30 Pro",
-      "price": 23990,
+      "price": 299,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -3917,7 +3917,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 10s",
-      "price": 12999,
+      "price": 149,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -3955,7 +3955,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO F19 Pro Plus 5G",
-      "price": 19990,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -3993,7 +3993,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi 13 Pro 5G",
-      "price": 58990,
+      "price": 699,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -4031,7 +4031,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V27 Pro",
-      "price": 43999,
+      "price": 549,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": false,
@@ -4069,7 +4069,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S22 5G",
-      "price": 49999,
+      "price": 599,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -4107,7 +4107,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo T1 44W (6GB RAM + 128GB)",
-      "price": 15999,
+      "price": 199,
       "rating": 79.0,
       "has_5g": false,
       "has_nfc": false,
@@ -4145,7 +4145,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 10R 5G (12GB RAM + 256GB)",
-      "price": 36999,
+      "price": 449,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -4183,7 +4183,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Phantom X2",
-      "price": 39999,
+      "price": 449,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -4221,7 +4221,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 12",
-      "price": 51999,
+      "price": 649,
       "rating": 74.0,
       "has_5g": true,
       "has_nfc": true,
@@ -4259,7 +4259,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi K50i 5G",
-      "price": 22999,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -4297,7 +4297,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A53 5G",
-      "price": 31999,
+      "price": 399,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -4335,7 +4335,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi A1",
-      "price": 6171,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -4373,7 +4373,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno8 5G",
-      "price": 29340,
+      "price": 349,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -4411,7 +4411,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M53 5G (8GB RAM + 128GB)",
-      "price": 25289,
+      "price": 299,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": false,
@@ -4449,7 +4449,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Z6 Pro 5G",
-      "price": 21788,
+      "price": 249,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": false,
@@ -4487,7 +4487,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tesla",
       "title": "Tesla Pi Phone",
-      "price": 69999,
+      "price": 849,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -4525,7 +4525,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S23",
-      "price": 70990,
+      "price": 849,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -4563,7 +4563,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Edge 30 Pro 5G",
-      "price": 34999,
+      "price": 449,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -4601,7 +4601,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord 2T (12GB RAM + 256GB)",
-      "price": 33900,
+      "price": 399,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -4639,7 +4639,7 @@ const shopData: Product[] = [
     {
       "brand_name": "google",
       "title": "Google Pixel 6A",
-      "price": 29999,
+      "price": 349,
       "rating": 71.0,
       "has_5g": true,
       "has_nfc": true,
@@ -4677,7 +4677,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Note 12 Pro 5G",
-      "price": 18999,
+      "price": 249,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -4715,7 +4715,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M33 5G (8GB RAM + 128GB)",
-      "price": 19499,
+      "price": 249,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -4753,7 +4753,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V23 5G",
-      "price": 24994,
+      "price": 299,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -4791,7 +4791,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G42",
-      "price": 10999,
+      "price": 149,
       "rating": 78.0,
       "has_5g": false,
       "has_nfc": true,
@@ -4829,7 +4829,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord CE 2 Lite 5G (8GB RAM + 256GB)",
-      "price": 24999,
+      "price": 299,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -4867,7 +4867,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A33 5G",
-      "price": 25999,
+      "price": 349,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": true,
@@ -4905,7 +4905,7 @@ const shopData: Product[] = [
     {
       "brand_name": "google",
       "title": "Google Pixel 7A",
-      "price": 34990,
+      "price": 449,
       "rating": 69.0,
       "has_5g": true,
       "has_nfc": true,
@@ -4943,7 +4943,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 11 Prime 5G",
-      "price": 13466,
+      "price": 149,
       "rating": 74.0,
       "has_5g": true,
       "has_nfc": false,
@@ -4981,7 +4981,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 10 Lite",
-      "price": 9999,
+      "price": 149,
       "rating": 76.0,
       "has_5g": false,
       "has_nfc": false,
@@ -5019,7 +5019,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto E40",
-      "price": 7999,
+      "price": 99,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -5057,7 +5057,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nothing",
       "title": "Nothing Phone 1 (8GB RAM + 256GB)",
-      "price": 28249,
+      "price": 349,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -5095,7 +5095,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco X4 Pro 5G (6GB RAM + 128GB)",
-      "price": 16499,
+      "price": 199,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -5133,7 +5133,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11 Pro Plus 5G (8GB RAM + 256GB)",
-      "price": 22999,
+      "price": 249,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": false,
@@ -5171,7 +5171,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 11 (128GB)",
-      "price": 46999,
+      "price": 549,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": true,
@@ -5209,7 +5209,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C35 (6GB RAM + 128GB)",
-      "price": 13999,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -5247,7 +5247,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO K10",
-      "price": 13490,
+      "price": 149,
       "rating": 78.0,
       "has_5g": false,
       "has_nfc": false,
@@ -5285,7 +5285,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Neo 6 5G",
-      "price": 28999,
+      "price": 349,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -5323,7 +5323,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Z6 5G",
-      "price": 15499,
+      "price": 199,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": false,
@@ -5361,7 +5361,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno 9 Pro 5G",
-      "price": 39999,
+      "price": 449,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -5399,7 +5399,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco M4 Pro 5G",
-      "price": 12999,
+      "price": 149,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": false,
@@ -5437,7 +5437,7 @@ const shopData: Product[] = [
     {
       "brand_name": "jio",
       "title": "Jio Phone 3",
-      "price": 4499,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -5475,7 +5475,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Clover",
-      "price": 14999,
+      "price": 199,
       "rating": 69.0,
       "has_5g": false,
       "has_nfc": false,
@@ -5513,7 +5513,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy F04",
-      "price": 8499,
+      "price": 99,
       "rating": 68.0,
       "has_5g": false,
       "has_nfc": false,
@@ -5551,7 +5551,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO 7",
-      "price": 24990,
+      "price": 299,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -5589,7 +5589,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M34 5G",
-      "price": 16999,
+      "price": 199,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -5627,7 +5627,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 10",
-      "price": 9589,
+      "price": 149,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -5665,7 +5665,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 12 Mini",
-      "price": 40999,
+      "price": 499,
       "rating": 74.0,
       "has_5g": true,
       "has_nfc": true,
@@ -5703,7 +5703,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 12 (6GB RAM + 128GB)",
-      "price": 19988,
+      "price": 249,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -5741,7 +5741,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G52",
-      "price": 11999,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": true,
@@ -5779,7 +5779,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 15 Pro Max",
-      "price": 142990,
+      "price": 1699,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": true,
@@ -5817,7 +5817,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo A98",
-      "price": 30990,
+      "price": 349,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -5855,7 +5855,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Zero 5G 2023",
-      "price": 19499,
+      "price": 249,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -5893,7 +5893,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C30",
-      "price": 5299,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -5931,7 +5931,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO F21 Pro 5G",
-      "price": 25969,
+      "price": 349,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -5969,7 +5969,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 11 Pro",
-      "price": 28999,
+      "price": 349,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -6007,7 +6007,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo Find N2 5G",
-      "price": 94990,
+      "price": 1149,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -6045,7 +6045,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9 4G",
-      "price": 14999,
+      "price": 199,
       "rating": 81.0,
       "has_5g": false,
       "has_nfc": false,
@@ -6083,7 +6083,7 @@ const shopData: Product[] = [
     {
       "brand_name": "cola",
       "title": "Cola Phone",
-      "price": 14999,
+      "price": 199,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -6121,7 +6121,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 13 Pro Max",
-      "price": 129900,
+      "price": 1549,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -6159,7 +6159,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo Reno 10 Pro Plus",
-      "price": 58990,
+      "price": 699,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -6197,7 +6197,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo X90 5G",
-      "price": 41990,
+      "price": 499,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -6235,7 +6235,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy F13",
-      "price": 10999,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": true,
@@ -6273,7 +6273,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 10S (6GB RAM + 128GB)",
-      "price": 11999,
+      "price": 149,
       "rating": 79.0,
       "has_5g": false,
       "has_nfc": false,
@@ -6311,7 +6311,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 10 (8GB RAM + 128GB)",
-      "price": 16999,
+      "price": 199,
       "rating": 79.0,
       "has_5g": false,
       "has_nfc": false,
@@ -6349,7 +6349,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO 9 SE 5G",
-      "price": 30990,
+      "price": 349,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -6387,7 +6387,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Hot 20",
-      "price": 17999,
+      "price": 249,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": false,
@@ -6425,7 +6425,7 @@ const shopData: Product[] = [
     {
       "brand_name": "letv",
       "title": "Letv Y1 Pro",
-      "price": 5499,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -6463,7 +6463,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 13 Pro Max 5G",
-      "price": 20499,
+      "price": 249,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -6501,7 +6501,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 50 Pro 5G",
-      "price": 20490,
+      "price": 249,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": false,
@@ -6539,7 +6539,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A74 5G",
-      "price": 15490,
+      "price": 199,
       "rating": 77.0,
       "has_5g": true,
       "has_nfc": false,
@@ -6577,7 +6577,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 9",
-      "price": 29990,
+      "price": 349,
       "rating": 61.0,
       "has_5g": false,
       "has_nfc": true,
@@ -6615,7 +6615,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Z6 Lite (6GB RAM + 128GB)",
-      "price": 15499,
+      "price": 199,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -6653,7 +6653,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11SE",
-      "price": 11999,
+      "price": 149,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -6691,7 +6691,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 50",
-      "price": 10999,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -6729,7 +6729,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y75 5G",
-      "price": 21990,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -6767,7 +6767,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V25 (12GB RAM + 256GB)",
-      "price": 31999,
+      "price": 399,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -6805,7 +6805,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "POCO M4 Pro 4G",
-      "price": 11999,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -6843,7 +6843,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Zero Ultra",
-      "price": 36999,
+      "price": 449,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": false,
@@ -6881,7 +6881,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Spark Go 2023",
-      "price": 6999,
+      "price": 99,
       "rating": 62.0,
       "has_5g": false,
       "has_nfc": false,
@@ -6919,7 +6919,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto X40",
-      "price": 39999,
+      "price": 449,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -6957,7 +6957,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy F24 5G",
-      "price": 14999,
+      "price": 199,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": true,
@@ -6995,7 +6995,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 10 5G",
-      "price": 14499,
+      "price": 149,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -7033,7 +7033,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord 3 5G",
-      "price": 27999,
+      "price": 349,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -7071,7 +7071,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G82 (8GB RAM + 128GB)",
-      "price": 20499,
+      "price": 249,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -7109,7 +7109,7 @@ const shopData: Product[] = [
     {
       "brand_name": "ikall",
       "title": "iKall Z19 Pro",
-      "price": 8099,
+      "price": 99,
       "rating": 60.0,
       "has_5g": false,
       "has_nfc": false,
@@ -7147,7 +7147,7 @@ const shopData: Product[] = [
     {
       "brand_name": "leeco",
       "title": "LeEco S1 Pro",
-      "price": 10999,
+      "price": 149,
       "rating": 65.0,
       "has_5g": false,
       "has_nfc": false,
@@ -7185,7 +7185,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C2s",
-      "price": 3499,
+      "price": 49,
       "rating": 63.0,
       "has_5g": false,
       "has_nfc": false,
@@ -7223,7 +7223,7 @@ const shopData: Product[] = [
     {
       "brand_name": "duoqin",
       "title": "Duoqin F22 Pro",
-      "price": 9990,
+      "price": 149,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -7261,7 +7261,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M54 5G",
-      "price": 34999,
+      "price": 449,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -7299,7 +7299,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nokia",
       "title": "Nokia N73 5G",
-      "price": 46999,
+      "price": 549,
       "rating": null,
       "has_5g": true,
       "has_nfc": false,
@@ -7337,7 +7337,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Edge 30 Fusion 5G",
-      "price": 39999,
+      "price": 449,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -7375,7 +7375,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C35",
-      "price": 11828,
+      "price": 149,
       "rating": 70.0,
       "has_5g": false,
       "has_nfc": false,
@@ -7413,7 +7413,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno 8 Pro House of Dragon Edition",
-      "price": 45999,
+      "price": 549,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -7451,7 +7451,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord CE 3 Lite 5G",
-      "price": 18999,
+      "price": 249,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": false,
@@ -7489,7 +7489,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco X4 Pro 5G (8GB RAM + 128GB)",
-      "price": 17999,
+      "price": 249,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -7527,7 +7527,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M04",
-      "price": 8499,
+      "price": 99,
       "rating": 66.0,
       "has_5g": false,
       "has_nfc": false,
@@ -7565,7 +7565,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A77s",
-      "price": 17999,
+      "price": 249,
       "rating": 76.0,
       "has_5g": false,
       "has_nfc": false,
@@ -7603,7 +7603,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A13",
-      "price": 14450,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -7641,7 +7641,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Edge 30 Ultra",
-      "price": 54999,
+      "price": 649,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -7679,7 +7679,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi 13 Ultra 5G",
-      "price": 71999,
+      "price": 849,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -7717,7 +7717,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G52 (6GB RAM + 128GB)",
-      "price": 12999,
+      "price": 149,
       "rating": 79.0,
       "has_5g": false,
       "has_nfc": true,
@@ -7755,7 +7755,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco M4 5G",
-      "price": 11499,
+      "price": 149,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": false,
@@ -7793,7 +7793,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nothing",
       "title": "Nothing Phone 1 (12GB RAM + 256GB)",
-      "price": 35999,
+      "price": 449,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -7831,7 +7831,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A54 5G",
-      "price": 34999,
+      "price": 449,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": true,
@@ -7869,7 +7869,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Pova 4",
-      "price": 11999,
+      "price": 149,
       "rating": 73.0,
       "has_5g": false,
       "has_nfc": false,
@@ -7907,7 +7907,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 12 Pro (8GB RAM + 256GB)",
-      "price": 27994,
+      "price": 349,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -7945,7 +7945,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 14 Pro Max (256GB)",
-      "price": 139990,
+      "price": 1649,
       "rating": 77.0,
       "has_5g": true,
       "has_nfc": true,
@@ -7983,7 +7983,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V25 Pro (12GB RAM + 256GB)",
-      "price": 39999,
+      "price": 449,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": false,
@@ -8021,7 +8021,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9 5G (6GB RAM + 128GB)",
-      "price": 15499,
+      "price": 199,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -8059,7 +8059,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9 Pro 5G",
-      "price": 18999,
+      "price": 249,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -8097,7 +8097,7 @@ const shopData: Product[] = [
     {
       "brand_name": "lava",
       "title": "Lava Blaze 5G",
-      "price": 10999,
+      "price": 149,
       "rating": 73.0,
       "has_5g": true,
       "has_nfc": false,
@@ -8135,7 +8135,7 @@ const shopData: Product[] = [
     {
       "brand_name": "honor",
       "title": "Honor X9a",
-      "price": 27999,
+      "price": 349,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": true,
@@ -8173,7 +8173,7 @@ const shopData: Product[] = [
     {
       "brand_name": "google",
       "title": "Google Pixel 7 Pro 5G",
-      "price": 81999,
+      "price": 949,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -8211,7 +8211,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Pova 3",
-      "price": 9999,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -8249,7 +8249,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V23 Pro 5G",
-      "price": 31994,
+      "price": 399,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -8287,7 +8287,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A04e",
-      "price": 9299,
+      "price": 149,
       "rating": 65.0,
       "has_5g": false,
       "has_nfc": false,
@@ -8325,7 +8325,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi K60",
-      "price": 29990,
+      "price": 349,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -8363,7 +8363,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9 Pro Plus 5G",
-      "price": 25900,
+      "price": 349,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": false,
@@ -8401,7 +8401,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9i 5G (6GB RAM + 128GB)",
-      "price": 16999,
+      "price": 199,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": false,
@@ -8439,7 +8439,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Edge 30 5G (8GB RAM + 128GB)",
-      "price": 24999,
+      "price": 299,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -8477,7 +8477,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11 (6GB RAM + 64GB)",
-      "price": 12188,
+      "price": 149,
       "rating": 79.0,
       "has_5g": false,
       "has_nfc": false,
@@ -8515,7 +8515,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y02",
-      "price": 8999,
+      "price": 149,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -8553,7 +8553,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "POCO C31 (4GB RAM + 64GB)",
-      "price": 7499,
+      "price": 99,
       "rating": 68.0,
       "has_5g": false,
       "has_nfc": false,
@@ -8591,7 +8591,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 50 5G",
-      "price": 17999,
+      "price": 249,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -8629,7 +8629,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme GT Neo 3T",
-      "price": 24999,
+      "price": 299,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -8667,7 +8667,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno 8 Pro 5G",
-      "price": 45999,
+      "price": 549,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -8705,7 +8705,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 10 Pro 5G (12GB RAM + 256GB)",
-      "price": 65499,
+      "price": 749,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -8743,7 +8743,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO 11 Pro 5G",
-      "price": 58990,
+      "price": 699,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -8781,7 +8781,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo T1x 4G",
-      "price": 11999,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -8819,7 +8819,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 10 Power",
-      "price": 11999,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -8857,7 +8857,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A58",
-      "price": 18990,
+      "price": 249,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": false,
@@ -8895,7 +8895,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo T1 44W",
-      "price": 14499,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -8933,7 +8933,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Mix Fold 2 5G",
-      "price": 106990,
+      "price": 1249,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -8971,7 +8971,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y16 (3GB RAM + 64GB)",
-      "price": 10499,
+      "price": 149,
       "rating": 66.0,
       "has_5g": false,
       "has_nfc": false,
@@ -9009,7 +9009,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno 8 Z",
-      "price": 26990,
+      "price": 349,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -9047,7 +9047,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y75 4G",
-      "price": 19990,
+      "price": 249,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -9085,7 +9085,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 12 Explorer",
-      "price": 24999,
+      "price": 299,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -9123,7 +9123,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A57 4G (4GB RAM + 64 GB)",
-      "price": 13969,
+      "price": 149,
       "rating": 69.0,
       "has_5g": false,
       "has_nfc": false,
@@ -9161,7 +9161,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A75 5G",
-      "price": 44999,
+      "price": 549,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -9199,7 +9199,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo T1 Pro 5G (8GB RAM + 128GB)",
-      "price": 24999,
+      "price": 299,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -9237,7 +9237,7 @@ const shopData: Product[] = [
     {
       "brand_name": "google",
       "title": "Google Pixel 7 5G",
-      "price": 53100,
+      "price": 649,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -9275,7 +9275,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11T 5G (6GB RAM + 128GB)",
-      "price": 16999,
+      "price": 199,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": false,
@@ -9313,7 +9313,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO F21s Pro 4G",
-      "price": 21899,
+      "price": 249,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -9351,7 +9351,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 14 (256GB)",
-      "price": 75999,
+      "price": 899,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": true,
@@ -9389,7 +9389,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G73",
-      "price": 25999,
+      "price": 349,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -9427,7 +9427,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nubia",
       "title": "Nubia Red Magic 8 Pro 5G",
-      "price": 46990,
+      "price": 549,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -9465,7 +9465,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G31",
-      "price": 9999,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -9503,7 +9503,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Phantom X2 Pro",
-      "price": 49999,
+      "price": 599,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -9541,7 +9541,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Zero 20",
-      "price": 17999,
+      "price": 249,
       "rating": 87.0,
       "has_5g": false,
       "has_nfc": true,
@@ -9579,7 +9579,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Z6 5G (6GB RAM + 128GB)",
-      "price": 16940,
+      "price": 199,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -9617,7 +9617,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11 Pro 5G",
-      "price": 17990,
+      "price": 249,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": false,
@@ -9655,7 +9655,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A1 Pro",
-      "price": 20990,
+      "price": 249,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -9693,7 +9693,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S22 FE 5G",
-      "price": 51999,
+      "price": 649,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": true,
@@ -9731,7 +9731,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S22 Plus 5G",
-      "price": 64449,
+      "price": 749,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -9769,7 +9769,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo U3x",
-      "price": 8990,
+      "price": 149,
       "rating": 71.0,
       "has_5g": true,
       "has_nfc": false,
@@ -9807,7 +9807,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G23",
-      "price": 19999,
+      "price": 249,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": true,
@@ -9845,7 +9845,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco M4 5G (6GB RAM + 128GB)",
-      "price": 13499,
+      "price": 149,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -9883,7 +9883,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Pova 5G",
-      "price": 15499,
+      "price": 199,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": false,
@@ -9921,7 +9921,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "POCO C31",
-      "price": 6499,
+      "price": 99,
       "rating": 65.0,
       "has_5g": false,
       "has_nfc": false,
@@ -9959,7 +9959,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone XR2",
-      "price": 71999,
+      "price": 849,
       "rating": 60.0,
       "has_5g": false,
       "has_nfc": true,
@@ -9997,7 +9997,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A53 (8GB RAM + 256GB)",
-      "price": 36499,
+      "price": 449,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -10035,7 +10035,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Note 12 5G",
-      "price": 15999,
+      "price": 199,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": false,
@@ -10073,7 +10073,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno7 Pro 5G",
-      "price": 31994,
+      "price": 399,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -10111,7 +10111,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Ace 2",
-      "price": 34999,
+      "price": 449,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -10149,7 +10149,7 @@ const shopData: Product[] = [
     {
       "brand_name": "redmi",
       "title": "Redmi Note 11 Pro 2023",
-      "price": 18999,
+      "price": 249,
       "rating": 81.0,
       "has_5g": false,
       "has_nfc": false,
@@ -10187,7 +10187,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nothing",
       "title": "Nothing Phone 2",
-      "price": 39990,
+      "price": 449,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -10225,7 +10225,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A32 (8GB RAM + 128GB)",
-      "price": 16499,
+      "price": 199,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -10263,7 +10263,7 @@ const shopData: Product[] = [
     {
       "brand_name": "google",
       "title": "Google Pixel 6 Pro",
-      "price": 54300,
+      "price": 649,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -10301,7 +10301,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Note 12i (2022)",
-      "price": 9999,
+      "price": 149,
       "rating": 73.0,
       "has_5g": false,
       "has_nfc": false,
@@ -10339,7 +10339,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 11 Prime 5G (6GB RAM + 128GB)",
-      "price": 15990,
+      "price": 199,
       "rating": 77.0,
       "has_5g": true,
       "has_nfc": false,
@@ -10377,7 +10377,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11 Pro Plus 5G (8GB RAM + 128GB)",
-      "price": 22700,
+      "price": 249,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": false,
@@ -10415,7 +10415,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi 12 Pro 5G",
-      "price": 50990,
+      "price": 599,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -10453,7 +10453,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 13 Mini",
-      "price": 64900,
+      "price": 749,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": true,
@@ -10491,7 +10491,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Pova 3 (6GB RAM + 128GB)",
-      "price": 13799,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -10529,7 +10529,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C31 (4GB RAM + 64GB)",
-      "price": 8999,
+      "price": 149,
       "rating": 65.0,
       "has_5g": false,
       "has_nfc": false,
@@ -10567,7 +10567,7 @@ const shopData: Product[] = [
     {
       "brand_name": "asus",
       "title": "Asus ROG Phone 6 Pro 5G",
-      "price": 89999,
+      "price": 1049,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -10605,7 +10605,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V23e 5G",
-      "price": 21994,
+      "price": 249,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -10643,7 +10643,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 14 Mini",
-      "price": 69990,
+      "price": 849,
       "rating": 70.0,
       "has_5g": false,
       "has_nfc": true,
@@ -10681,7 +10681,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 10T 5G",
-      "price": 12999,
+      "price": 149,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": false,
@@ -10719,7 +10719,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Neo 7 SE 5G",
-      "price": 24990,
+      "price": 299,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -10757,7 +10757,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A23 (8GB RAM + 128GB)",
-      "price": 19990,
+      "price": 249,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -10795,7 +10795,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 12 Pro (8GB RAM + 128GB)",
-      "price": 26999,
+      "price": 349,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -10833,7 +10833,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 12 Turbo",
-      "price": 19999,
+      "price": 249,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": true,
@@ -10871,7 +10871,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Note 12 Pro",
-      "price": 16900,
+      "price": 199,
       "rating": 83.0,
       "has_5g": false,
       "has_nfc": false,
@@ -10909,7 +10909,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Hot 20 (6GB RAM+ 128GB)",
-      "price": 19999,
+      "price": 249,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": false,
@@ -10947,7 +10947,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 14 Pro Max (1TB)",
-      "price": 182999,
+      "price": 2149,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": true,
@@ -10985,7 +10985,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M13",
-      "price": 12999,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -11023,7 +11023,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco M4 Pro 5G (8GB RAM + 128GB)",
-      "price": 15999,
+      "price": 199,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -11061,7 +11061,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 10S (8GB RAM + 128GB)",
-      "price": 13999,
+      "price": 149,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -11099,7 +11099,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C11 2021 (4GB RAM + 64GB)",
-      "price": 7749,
+      "price": 99,
       "rating": 61.0,
       "has_5g": false,
       "has_nfc": false,
@@ -11137,7 +11137,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A23 5G (8GB RAM + 128GB)",
-      "price": 24999,
+      "price": 299,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": false,
@@ -11175,7 +11175,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Edge 30 Ultra (12GB RAM + 256GB)",
-      "price": 59999,
+      "price": 749,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -11213,7 +11213,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO F21s Pro",
-      "price": 25895,
+      "price": 349,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -11251,7 +11251,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi 13 5G",
-      "price": 46990,
+      "price": 549,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -11289,7 +11289,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 10A",
-      "price": 7499,
+      "price": 99,
       "rating": 64.0,
       "has_5g": false,
       "has_nfc": false,
@@ -11327,7 +11327,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y01A",
-      "price": 7790,
+      "price": 99,
       "rating": 60.0,
       "has_5g": false,
       "has_nfc": false,
@@ -11365,7 +11365,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi K50i (8GB RAM + 256GB)",
-      "price": 25999,
+      "price": 349,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -11403,7 +11403,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C30 (3GB RAM + 32GB)",
-      "price": 6299,
+      "price": 99,
       "rating": 60.0,
       "has_5g": false,
       "has_nfc": false,
@@ -11441,7 +11441,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G51 5G",
-      "price": 12999,
+      "price": 149,
       "rating": 77.0,
       "has_5g": true,
       "has_nfc": true,
@@ -11479,7 +11479,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 10 (6GB RAM + 128GB)",
-      "price": 11999,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -11517,7 +11517,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Mi 11 Lite NE 5G",
-      "price": 21890,
+      "price": 249,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -11555,7 +11555,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy Z Flip 3",
-      "price": 69999,
+      "price": 849,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -11593,7 +11593,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 12 (128GB)",
-      "price": 55999,
+      "price": 649,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": true,
@@ -11631,7 +11631,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 10T (16GB RAM + 256GB)",
-      "price": 55999,
+      "price": 649,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -11669,7 +11669,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A13 (4GB RAM + 128GB)",
-      "price": 14999,
+      "price": 199,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -11707,7 +11707,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno7 5G",
-      "price": 25994,
+      "price": 349,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -11745,7 +11745,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 9RT 5G",
-      "price": 42999,
+      "price": 549,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -11783,7 +11783,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A53 5G (8GB RAM + 128GB)",
-      "price": 33499,
+      "price": 399,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -11821,7 +11821,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S22 Ultra 5G (12GB RAM + 512GB)",
-      "price": 118999,
+      "price": 1399,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -11859,7 +11859,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G71 5G",
-      "price": 16999,
+      "price": 199,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": true,
@@ -11897,7 +11897,7 @@ const shopData: Product[] = [
     {
       "brand_name": "itel",
       "title": "itel S16 Pro",
-      "price": 6990,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -11935,7 +11935,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y100",
-      "price": 29990,
+      "price": 349,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -11973,7 +11973,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M13 5G (4GB RAM + 64GB)",
-      "price": 12944,
+      "price": 149,
       "rating": 71.0,
       "has_5g": true,
       "has_nfc": false,
@@ -12011,7 +12011,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "POCO X5 GT",
-      "price": 29990,
+      "price": 349,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -12049,7 +12049,7 @@ const shopData: Product[] = [
     {
       "brand_name": "honor",
       "title": "Honor X9 5G",
-      "price": 16999,
+      "price": 199,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": true,
@@ -12087,7 +12087,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO 11 (16GB RAM + 256GB)",
-      "price": 64999,
+      "price": 749,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -12125,7 +12125,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy Z Fold 4",
-      "price": 154998,
+      "price": 1849,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -12163,7 +12163,7 @@ const shopData: Product[] = [
     {
       "brand_name": "royole",
       "title": "Royole FlexPai 2",
-      "price": 109999,
+      "price": 1299,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": false,
@@ -12201,7 +12201,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 14 Plus (256GB)",
-      "price": 84999,
+      "price": 999,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -12239,7 +12239,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A33 5G (8GB RAM + 128GB)",
-      "price": 27499,
+      "price": 349,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -12277,7 +12277,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Spark 9",
-      "price": 8999,
+      "price": 149,
       "rating": 69.0,
       "has_5g": false,
       "has_nfc": false,
@@ -12315,7 +12315,7 @@ const shopData: Product[] = [
     {
       "brand_name": "google",
       "title": "Google Pixel 6",
-      "price": 40480,
+      "price": 499,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -12353,7 +12353,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 10 Pro (6GB RAM + 128GB)",
-      "price": 17999,
+      "price": 249,
       "rating": 81.0,
       "has_5g": false,
       "has_nfc": false,
@@ -12391,7 +12391,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S21 Ultra",
-      "price": 105999,
+      "price": 1249,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -12429,7 +12429,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Hot 20 Play",
-      "price": 8999,
+      "price": 149,
       "rating": 67.0,
       "has_5g": false,
       "has_nfc": false,
@@ -12467,7 +12467,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo T1x (6GB RAM + 128GB)",
-      "price": 14999,
+      "price": 199,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -12505,7 +12505,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO F23 Pro",
-      "price": 19990,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -12543,7 +12543,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Z6 Pro 5G (8GB RAM + 128GB)",
-      "price": 23399,
+      "price": 299,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -12581,7 +12581,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A73 5G (8GB RAM + 256GB)",
-      "price": 41990,
+      "price": 499,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -12619,7 +12619,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9 5G SE (8GB RAM + 128GB)",
-      "price": 22998,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -12657,7 +12657,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco F4 5G",
-      "price": 25999,
+      "price": 349,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": true,
@@ -12695,7 +12695,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Note 12",
-      "price": 11700,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -12733,7 +12733,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A03 Core",
-      "price": 6499,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -12771,7 +12771,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G60",
-      "price": 15999,
+      "price": 199,
       "rating": 84.0,
       "has_5g": false,
       "has_nfc": true,
@@ -12809,7 +12809,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 9 Pro",
-      "price": 64800,
+      "price": 749,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -12847,7 +12847,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11S",
-      "price": 14590,
+      "price": 149,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -12885,7 +12885,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 9 Activ",
-      "price": 7499,
+      "price": 99,
       "rating": 68.0,
       "has_5g": false,
       "has_nfc": false,
@@ -12923,7 +12923,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Camon 19 Pro 5G",
-      "price": 21999,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": true,
@@ -12961,7 +12961,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A04",
-      "price": 11999,
+      "price": 149,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -12999,7 +12999,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "POCO M4 Pro 4G (6GB RAM + 128GB)",
-      "price": 12999,
+      "price": 149,
       "rating": 79.0,
       "has_5g": false,
       "has_nfc": false,
@@ -13037,7 +13037,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord N20 5G",
-      "price": 20990,
+      "price": 249,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": true,
@@ -13075,7 +13075,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 13 (256GB)",
-      "price": 72999,
+      "price": 849,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": true,
@@ -13113,7 +13113,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo Find X6 Pro",
-      "price": 77990,
+      "price": 949,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -13151,7 +13151,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo X90 Pro 5G",
-      "price": 56999,
+      "price": 649,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -13189,7 +13189,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G53",
-      "price": 21999,
+      "price": 249,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": true,
@@ -13227,7 +13227,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G22",
-      "price": 9499,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -13265,7 +13265,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 9i Sport",
-      "price": 7499,
+      "price": 99,
       "rating": 66.0,
       "has_5g": false,
       "has_nfc": false,
@@ -13303,7 +13303,7 @@ const shopData: Product[] = [
     {
       "brand_name": "jio",
       "title": "Jio JioPhone Next",
-      "price": 4649,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -13341,7 +13341,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y93",
-      "price": 18000,
+      "price": 249,
       "rating": 62.0,
       "has_5g": false,
       "has_nfc": false,
@@ -13379,7 +13379,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi K60 Pro",
-      "price": 38999,
+      "price": 449,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -13417,7 +13417,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C30s",
-      "price": 7145,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -13455,7 +13455,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y22s",
-      "price": 14990,
+      "price": 199,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -13493,7 +13493,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A77",
-      "price": 15499,
+      "price": 199,
       "rating": 70.0,
       "has_5g": false,
       "has_nfc": false,
@@ -13531,7 +13531,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 10A Sport",
-      "price": 9999,
+      "price": 149,
       "rating": 69.0,
       "has_5g": false,
       "has_nfc": false,
@@ -13569,7 +13569,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco F4 (12GB RAM + 256GB)",
-      "price": 29999,
+      "price": 349,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -13607,7 +13607,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9 4G (8GB RAM + 128GB)",
-      "price": 15999,
+      "price": 199,
       "rating": 84.0,
       "has_5g": false,
       "has_nfc": false,
@@ -13645,7 +13645,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi 12T Pro 5G",
-      "price": 59990,
+      "price": 749,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -13683,7 +13683,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO 9 5G",
-      "price": 34990,
+      "price": 449,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -13721,7 +13721,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 12 Mini (128GB)",
-      "price": 45999,
+      "price": 549,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": true,
@@ -13759,7 +13759,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S24 Ultra",
-      "price": 119990,
+      "price": 1449,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -13797,7 +13797,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Find N Flip",
-      "price": 89990,
+      "price": 1049,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -13835,7 +13835,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 10T (12GB RAM + 256GB)",
-      "price": 50999,
+      "price": 599,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -13873,7 +13873,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Spark 9 (4GB RAM + 64GB)",
-      "price": 7999,
+      "price": 99,
       "rating": 65.0,
       "has_5g": false,
       "has_nfc": false,
@@ -13911,7 +13911,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S21 FE 5G (8GB RAM + 256GB)",
-      "price": 43999,
+      "price": 549,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -13949,7 +13949,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11T 5G (8GB RAM + 128GB)",
-      "price": 18499,
+      "price": 249,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -13987,7 +13987,7 @@ const shopData: Product[] = [
     {
       "brand_name": "sony",
       "title": "Sony Xperia Pro-I",
-      "price": 134999,
+      "price": 1599,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -14025,7 +14025,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V21 Pro",
-      "price": 32999,
+      "price": 399,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -14063,7 +14063,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco X3",
-      "price": 13499,
+      "price": 149,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -14101,7 +14101,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S20 FE",
-      "price": 35489,
+      "price": 449,
       "rating": 86.0,
       "has_5g": false,
       "has_nfc": true,
@@ -14139,7 +14139,7 @@ const shopData: Product[] = [
     {
       "brand_name": "google",
       "title": "Google Pixel 4",
-      "price": 20120,
+      "price": 249,
       "rating": 78.0,
       "has_5g": false,
       "has_nfc": true,
@@ -14177,7 +14177,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S10 Plus",
-      "price": 42999,
+      "price": 549,
       "rating": 81.0,
       "has_5g": false,
       "has_nfc": true,
@@ -14215,7 +14215,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 11 Pro Plus",
-      "price": 24999,
+      "price": 299,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": false,
@@ -14253,7 +14253,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO F21 Pro 4G",
-      "price": 20999,
+      "price": 249,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -14291,7 +14291,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme GT 2 5G",
-      "price": 28994,
+      "price": 349,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -14329,7 +14329,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S21",
-      "price": 48900,
+      "price": 599,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -14367,7 +14367,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A71",
-      "price": 22494,
+      "price": 249,
       "rating": 86.0,
       "has_5g": false,
       "has_nfc": false,
@@ -14405,7 +14405,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y02s",
-      "price": 8990,
+      "price": 149,
       "rating": 61.0,
       "has_5g": false,
       "has_nfc": false,
@@ -14443,7 +14443,7 @@ const shopData: Product[] = [
     {
       "brand_name": "letv",
       "title": "Letv Y2 Pro",
-      "price": 6999,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -14481,7 +14481,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Spark 8C (4GB RAM + 64GB)",
-      "price": 8890,
+      "price": 149,
       "rating": 63.0,
       "has_5g": false,
       "has_nfc": false,
@@ -14519,7 +14519,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Z6 5G (8GB RAM + 128GB)",
-      "price": 18498,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -14557,7 +14557,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo T1 Pro",
-      "price": 23999,
+      "price": 299,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": false,
@@ -14595,7 +14595,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9 Pro Plus 5G (8GB RAM + 128GB)",
-      "price": 22994,
+      "price": 249,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": false,
@@ -14633,7 +14633,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A04s",
-      "price": 12990,
+      "price": 149,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -14671,7 +14671,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9i (6GB RAM + 128GB)",
-      "price": 14999,
+      "price": 199,
       "rating": 78.0,
       "has_5g": false,
       "has_nfc": false,
@@ -14709,7 +14709,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 8 5G (8GB RAM + 128GB)",
-      "price": 18499,
+      "price": 249,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -14747,7 +14747,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO F19",
-      "price": 14990,
+      "price": 199,
       "rating": 78.0,
       "has_5g": false,
       "has_nfc": false,
@@ -14785,7 +14785,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Find N2 Flip",
-      "price": 70990,
+      "price": 849,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -14823,7 +14823,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M32 Prime Edition",
-      "price": 12120,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -14861,7 +14861,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oukitel",
       "title": "Oukitel WP19",
-      "price": 29990,
+      "price": 349,
       "rating": 84.0,
       "has_5g": false,
       "has_nfc": true,
@@ -14899,7 +14899,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9 Pro 5G (8GB RAM + 128GB)",
-      "price": 20999,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -14937,7 +14937,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 10 Lite (6GB RAM + 128GB)",
-      "price": 11999,
+      "price": 149,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -14975,7 +14975,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A13 5G",
-      "price": 17990,
+      "price": 249,
       "rating": 73.0,
       "has_5g": true,
       "has_nfc": true,
@@ -15013,7 +15013,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11 5G",
-      "price": 14990,
+      "price": 199,
       "rating": 77.0,
       "has_5g": true,
       "has_nfc": false,
@@ -15051,7 +15051,7 @@ const shopData: Product[] = [
     {
       "brand_name": "itel",
       "title": "itel P36",
-      "price": 6490,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -15089,7 +15089,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme GT Neo 5",
-      "price": 34999,
+      "price": 449,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -15127,7 +15127,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 15 Ultra",
-      "price": 149900,
+      "price": 1749,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": true,
@@ -15165,7 +15165,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco C50",
-      "price": 6499,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -15203,7 +15203,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy Note 30 Ultra 5G",
-      "price": 104999,
+      "price": 1249,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -15241,7 +15241,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9i (4GB RAM + 128GB)",
-      "price": 13999,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -15279,7 +15279,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11T 5G",
-      "price": 16999,
+      "price": 199,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -15317,7 +15317,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo X80 Pro 5G",
-      "price": 79999,
+      "price": 949,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -15355,7 +15355,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno 6 Pro 5G",
-      "price": 36760,
+      "price": 449,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -15393,7 +15393,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Mi 11i 5G",
-      "price": 23499,
+      "price": 299,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": false,
@@ -15431,7 +15431,7 @@ const shopData: Product[] = [
     {
       "brand_name": "asus",
       "title": "Asus ROG Phone 7",
-      "price": 75990,
+      "price": 899,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -15469,7 +15469,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo A77 5G",
-      "price": 21990,
+      "price": 249,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": false,
@@ -15507,7 +15507,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9 5G SE",
-      "price": 18999,
+      "price": 249,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -15545,7 +15545,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A03",
-      "price": 7249,
+      "price": 99,
       "rating": 66.0,
       "has_5g": false,
       "has_nfc": false,
@@ -15583,7 +15583,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord N200",
-      "price": 16990,
+      "price": 199,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": true,
@@ -15621,7 +15621,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Mi 11X",
-      "price": 23890,
+      "price": 299,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -15659,7 +15659,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno 6",
-      "price": 26380,
+      "price": 349,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -15697,7 +15697,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme X50 Pro 5G (12GB RAM + 256GB)",
-      "price": 27999,
+      "price": 349,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -15735,7 +15735,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 10A (6GB RAM + 128GB)",
-      "price": 10850,
+      "price": 149,
       "rating": 70.0,
       "has_5g": false,
       "has_nfc": false,
@@ -15773,7 +15773,7 @@ const shopData: Product[] = [
     {
       "brand_name": "redmi",
       "title": "Redmi Note 12 Pro Speed Edition",
-      "price": 19999,
+      "price": 249,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": true,
@@ -15811,7 +15811,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 14 Pro (256GB)",
-      "price": 129990,
+      "price": 1549,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": true,
@@ -15849,7 +15849,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G72",
-      "price": 19990,
+      "price": 249,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": true,
@@ -15887,7 +15887,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto X30 Pro",
-      "price": 41990,
+      "price": 499,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -15925,7 +15925,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi 12S Ultra",
-      "price": 69990,
+      "price": 849,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -15963,7 +15963,7 @@ const shopData: Product[] = [
     {
       "brand_name": "honor",
       "title": "Honor 70 5G",
-      "price": 39990,
+      "price": 449,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -16001,7 +16001,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 10 Pro 5G (12GB RAM + 512GB)",
-      "price": 74999,
+      "price": 899,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -16039,7 +16039,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V23 Pro 5G (12GB RAM + 256GB)",
-      "price": 36994,
+      "price": 449,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": false,
@@ -16077,7 +16077,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A55 4G (6GB RAM + 128GB)",
-      "price": 14700,
+      "price": 149,
       "rating": 76.0,
       "has_5g": false,
       "has_nfc": false,
@@ -16115,7 +16115,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Mi 11T Pro 5G",
-      "price": 34990,
+      "price": 449,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -16153,7 +16153,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nokia",
       "title": "Nokia X50 5G",
-      "price": 34999,
+      "price": 449,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": false,
@@ -16191,7 +16191,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 10",
-      "price": 13990,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -16229,7 +16229,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vertu",
       "title": "Vertu Signature Touch",
-      "price": 650000,
+      "price": 7649,
       "rating": 62.0,
       "has_5g": false,
       "has_nfc": true,
@@ -16267,7 +16267,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M32 Prime Edition (6GB RAM + 128GB)",
-      "price": 14859,
+      "price": 199,
       "rating": 79.0,
       "has_5g": false,
       "has_nfc": false,
@@ -16305,7 +16305,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Camon 19 Pro Mondrian Edition",
-      "price": 17999,
+      "price": 249,
       "rating": 84.0,
       "has_5g": false,
       "has_nfc": true,
@@ -16343,7 +16343,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco F5",
-      "price": 34990,
+      "price": 449,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -16381,7 +16381,7 @@ const shopData: Product[] = [
     {
       "brand_name": "blu",
       "title": "BLU F91 5G",
-      "price": 14990,
+      "price": 199,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -16419,7 +16419,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A16e",
-      "price": 8999,
+      "price": 149,
       "rating": 65.0,
       "has_5g": false,
       "has_nfc": false,
@@ -16457,7 +16457,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto E32",
-      "price": 8999,
+      "price": 149,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -16495,7 +16495,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11S (8GB RAM + 128GB)",
-      "price": 15824,
+      "price": 199,
       "rating": 84.0,
       "has_5g": false,
       "has_nfc": false,
@@ -16533,7 +16533,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone SE 3 2022",
-      "price": 43900,
+      "price": 549,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -16571,7 +16571,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A52 (8GB RAM + 128GB)",
-      "price": 22494,
+      "price": 249,
       "rating": 86.0,
       "has_5g": false,
       "has_nfc": false,
@@ -16609,7 +16609,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco X3 Pro",
-      "price": 19650,
+      "price": 249,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -16647,7 +16647,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 9A",
-      "price": 6999,
+      "price": 99,
       "rating": 61.0,
       "has_5g": false,
       "has_nfc": false,
@@ -16685,7 +16685,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A32",
-      "price": 16499,
+      "price": 199,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -16723,7 +16723,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G13",
-      "price": 15999,
+      "price": 199,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": true,
@@ -16761,7 +16761,7 @@ const shopData: Product[] = [
     {
       "brand_name": "asus",
       "title": "Asus ROG Phone 6 Batman Edition",
-      "price": 72999,
+      "price": 849,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -16799,7 +16799,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 12 Pro Plus (6GB RAM + 128GB)",
-      "price": 26999,
+      "price": 349,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -16837,7 +16837,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Smart 6 HD",
-      "price": 6999,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -16875,7 +16875,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 15 Pro",
-      "price": 130990,
+      "price": 1549,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": true,
@@ -16913,7 +16913,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C35 (4GB RAM + 128GB)",
-      "price": 12787,
+      "price": 149,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -16951,7 +16951,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Hot 12",
-      "price": 9999,
+      "price": 149,
       "rating": 72.0,
       "has_5g": false,
       "has_nfc": false,
@@ -16989,7 +16989,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo X80 5G",
-      "price": 54999,
+      "price": 649,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": false,
@@ -17027,7 +17027,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y53s",
-      "price": 15490,
+      "price": 199,
       "rating": 79.0,
       "has_5g": false,
       "has_nfc": false,
@@ -17065,7 +17065,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Phantom X",
-      "price": 25999,
+      "price": 349,
       "rating": 84.0,
       "has_5g": false,
       "has_nfc": false,
@@ -17103,7 +17103,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M04 (4GB RAM + 128GB)",
-      "price": 9499,
+      "price": 149,
       "rating": 68.0,
       "has_5g": false,
       "has_nfc": false,
@@ -17141,7 +17141,7 @@ const shopData: Product[] = [
     {
       "brand_name": "redmi",
       "title": "Redmi 12C",
-      "price": 7999,
+      "price": 99,
       "rating": 70.0,
       "has_5g": false,
       "has_nfc": false,
@@ -17179,7 +17179,7 @@ const shopData: Product[] = [
     {
       "brand_name": "asus",
       "title": "Asus ZenFone 9",
-      "price": 63990,
+      "price": 749,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -17217,7 +17217,7 @@ const shopData: Product[] = [
     {
       "brand_name": "sony",
       "title": "Sony Xperia L5 5G",
-      "price": 15990,
+      "price": 199,
       "rating": 73.0,
       "has_5g": false,
       "has_nfc": true,
@@ -17255,7 +17255,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO 9 SE 5G (12GB RAM + 256GB)",
-      "price": 34949,
+      "price": 449,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -17293,7 +17293,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Spark 8 Pro",
-      "price": 8799,
+      "price": 149,
       "rating": 72.0,
       "has_5g": false,
       "has_nfc": false,
@@ -17331,7 +17331,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 10 Prime",
-      "price": 12390,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -17369,7 +17369,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy F22",
-      "price": 11499,
+      "price": 149,
       "rating": 73.0,
       "has_5g": false,
       "has_nfc": false,
@@ -17407,7 +17407,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Mi Mix Alpha",
-      "price": 199990,
+      "price": 2349,
       "rating": null,
       "has_5g": true,
       "has_nfc": false,
@@ -17445,7 +17445,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno 10 Pro",
-      "price": 42990,
+      "price": 549,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -17483,7 +17483,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nubia",
       "title": "Nubia Z50",
-      "price": 34999,
+      "price": 449,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": true,
@@ -17521,7 +17521,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy F13 (4GB RAM + 128GB)",
-      "price": 11999,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": true,
@@ -17559,7 +17559,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nokia",
       "title": "Nokia G11 Plus",
-      "price": 10499,
+      "price": 149,
       "rating": 70.0,
       "has_5g": false,
       "has_nfc": false,
@@ -17597,7 +17597,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Hot 12 Play",
-      "price": 8910,
+      "price": 149,
       "rating": 66.0,
       "has_5g": false,
       "has_nfc": false,
@@ -17635,7 +17635,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo T2 5G",
-      "price": 24990,
+      "price": 299,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -17673,7 +17673,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno7 Z 5G",
-      "price": 17999,
+      "price": 249,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -17711,7 +17711,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Mi 11 Lite NE 5G (8GB RAM + 128GB)",
-      "price": 22999,
+      "price": 249,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -17749,7 +17749,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 50i",
-      "price": 6490,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -17787,7 +17787,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Zero X Pro",
-      "price": 21990,
+      "price": 249,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -17825,7 +17825,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M32",
-      "price": 12364,
+      "price": 149,
       "rating": 76.0,
       "has_5g": false,
       "has_nfc": false,
@@ -17863,7 +17863,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A82 5G",
-      "price": 39990,
+      "price": 449,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -17901,7 +17901,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Poco F1",
-      "price": 11999,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -17939,7 +17939,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y25",
-      "price": 7499,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -17977,7 +17977,7 @@ const shopData: Product[] = [
     {
       "brand_name": "lyf",
       "title": "Lyf Earth 1",
-      "price": 3990,
+      "price": 49,
       "rating": 60.0,
       "has_5g": false,
       "has_nfc": false,
@@ -18015,7 +18015,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto E13",
-      "price": 10499,
+      "price": 149,
       "rating": 65.0,
       "has_5g": false,
       "has_nfc": false,
@@ -18053,7 +18053,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Pop 6 Pro",
-      "price": 6299,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -18091,7 +18091,7 @@ const shopData: Product[] = [
     {
       "brand_name": "itel",
       "title": "Itel A24 Pro",
-      "price": 5990,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -18129,7 +18129,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo X Fold Plus",
-      "price": 113990,
+      "price": 1349,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -18167,7 +18167,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei Mate 50 RS Porsche Design",
-      "price": 239999,
+      "price": 2849,
       "rating": 81.0,
       "has_5g": false,
       "has_nfc": true,
@@ -18205,7 +18205,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy F63",
-      "price": 21999,
+      "price": 249,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -18243,7 +18243,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Z6 4G (6GB RAM + 128GB)",
-      "price": 15999,
+      "price": 199,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -18281,7 +18281,7 @@ const shopData: Product[] = [
     {
       "brand_name": "sony",
       "title": "Sony Xperia 5 II",
-      "price": 69990,
+      "price": 849,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -18319,7 +18319,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y3 (4GB RAM + 128GB)",
-      "price": 12990,
+      "price": 149,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -18357,7 +18357,7 @@ const shopData: Product[] = [
     {
       "brand_name": "sony",
       "title": "Sony Xperia 1 IV (12GB RAM + 512GB)",
-      "price": 92980,
+      "price": 1099,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -18395,7 +18395,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Pova 4 Pro",
-      "price": 15999,
+      "price": 199,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -18433,7 +18433,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei Nova 10 SE",
-      "price": 23999,
+      "price": 299,
       "rating": 84.0,
       "has_5g": false,
       "has_nfc": true,
@@ -18471,7 +18471,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo T1x (4GB RAM + 128GB)",
-      "price": 12999,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -18509,7 +18509,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nubia",
       "title": "Nubia Red Magic 7S Pro",
-      "price": 60990,
+      "price": 749,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -18547,7 +18547,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto E32s (4GB RAM + 64GB)",
-      "price": 8859,
+      "price": 149,
       "rating": 67.0,
       "has_5g": false,
       "has_nfc": false,
@@ -18585,7 +18585,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Neo 6 5G (12GB RAM + 256GB)",
-      "price": 33749,
+      "price": 399,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -18623,7 +18623,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A15",
-      "price": 15990,
+      "price": 199,
       "rating": 63.0,
       "has_5g": false,
       "has_nfc": false,
@@ -18661,7 +18661,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "POCO X4 GT 5G",
-      "price": 24990,
+      "price": 299,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -18699,7 +18699,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 50 5G (4GB RAM + 128GB)",
-      "price": 14999,
+      "price": 199,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": false,
@@ -18737,7 +18737,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y77 5G",
-      "price": 17990,
+      "price": 249,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": false,
@@ -18775,7 +18775,7 @@ const shopData: Product[] = [
     {
       "brand_name": "honor",
       "title": "Honor 60 SE 5G",
-      "price": 24990,
+      "price": 299,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": false,
@@ -18813,7 +18813,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 11 Prime",
-      "price": 11600,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -18851,7 +18851,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C31",
-      "price": 8299,
+      "price": 99,
       "rating": 62.0,
       "has_5g": false,
       "has_nfc": false,
@@ -18889,7 +18889,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G31 (6GB RAM+ 128GB)",
-      "price": 11999,
+      "price": 149,
       "rating": 78.0,
       "has_5g": false,
       "has_nfc": false,
@@ -18927,7 +18927,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy Z Flip 4 5G",
-      "price": 89999,
+      "price": 1049,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -18965,7 +18965,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 6 (8GB RAM + 128GB)",
-      "price": 27999,
+      "price": 349,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": true,
@@ -19003,7 +19003,7 @@ const shopData: Product[] = [
     {
       "brand_name": "google",
       "title": "Google Pixel 2 XL",
-      "price": 15990,
+      "price": 199,
       "rating": 69.0,
       "has_5g": false,
       "has_nfc": true,
@@ -19041,7 +19041,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi A1 Plus",
-      "price": 7289,
+      "price": 99,
       "rating": 60.0,
       "has_5g": false,
       "has_nfc": false,
@@ -19079,7 +19079,7 @@ const shopData: Product[] = [
     {
       "brand_name": "honor",
       "title": "Honor 70 5G (8GB RAM + 256GB)",
-      "price": 30990,
+      "price": 349,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -19117,7 +19117,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 50 (6GB RAM + 128GB)",
-      "price": 15499,
+      "price": 199,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -19155,7 +19155,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y15s",
-      "price": 8499,
+      "price": 99,
       "rating": 66.0,
       "has_5g": false,
       "has_nfc": false,
@@ -19193,7 +19193,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M32 (6GB RAM + 128GB)",
-      "price": 14490,
+      "price": 149,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -19231,7 +19231,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy F42 5G",
-      "price": 15490,
+      "price": 199,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -19269,7 +19269,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Q5 5G",
-      "price": 14990,
+      "price": 199,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": false,
@@ -19307,7 +19307,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "POCO M3 Pro 5G",
-      "price": 15999,
+      "price": 199,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": false,
@@ -19345,7 +19345,7 @@ const shopData: Product[] = [
     {
       "brand_name": "google",
       "title": "Google Pixel 5",
-      "price": 36000,
+      "price": 449,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": true,
@@ -19383,7 +19383,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 12 Pro",
-      "price": 69999,
+      "price": 849,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -19421,7 +19421,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 12 Discovery Edition",
-      "price": 26990,
+      "price": 349,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -19459,7 +19459,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M13 (4GB RAM + 64GB)",
-      "price": 10630,
+      "price": 149,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -19497,7 +19497,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo Reno 8 Pro (8GB RAM + 256GB)",
-      "price": 42990,
+      "price": 549,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -19535,7 +19535,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y78 5G",
-      "price": 24990,
+      "price": 299,
       "rating": 77.0,
       "has_5g": true,
       "has_nfc": false,
@@ -19573,7 +19573,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Z6 4G",
-      "price": 14489,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -19611,7 +19611,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A76",
-      "price": 16490,
+      "price": 199,
       "rating": 73.0,
       "has_5g": false,
       "has_nfc": false,
@@ -19649,7 +19649,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 9 Pro Plus 5G (8GB RAM + 256GB)",
-      "price": 24494,
+      "price": 299,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -19687,7 +19687,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y01",
-      "price": 7999,
+      "price": 99,
       "rating": 61.0,
       "has_5g": false,
       "has_nfc": false,
@@ -19725,7 +19725,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto Edge S30 5G",
-      "price": 23990,
+      "price": 299,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -19763,7 +19763,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme GT 2 Pro 5G",
-      "price": 49959,
+      "price": 599,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -19801,7 +19801,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 13 Pro (256GB)",
-      "price": 129900,
+      "price": 1549,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -19839,7 +19839,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y73 2021",
-      "price": 19990,
+      "price": 249,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -19877,7 +19877,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy F14",
-      "price": 14990,
+      "price": 199,
       "rating": 67.0,
       "has_5g": false,
       "has_nfc": true,
@@ -19915,7 +19915,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V20",
-      "price": 23269,
+      "price": 249,
       "rating": 85.0,
       "has_5g": false,
       "has_nfc": false,
@@ -19953,7 +19953,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 9 Pro",
-      "price": 13999,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -19991,7 +19991,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 10R Prime Edition",
-      "price": 35389,
+      "price": 449,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -20029,7 +20029,7 @@ const shopData: Product[] = [
     {
       "brand_name": "google",
       "title": "Google Pixel 6 Pro (12GB RAM + 256GB)",
-      "price": 79700,
+      "price": 949,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -20067,7 +20067,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nokia",
       "title": "Nokia C31",
-      "price": 9499,
+      "price": 149,
       "rating": 62.0,
       "has_5g": false,
       "has_nfc": false,
@@ -20105,7 +20105,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Hot 12 Pro (8GB RAM+ 128GB)",
-      "price": 12340,
+      "price": 149,
       "rating": 76.0,
       "has_5g": false,
       "has_nfc": false,
@@ -20143,7 +20143,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco M5",
-      "price": 10799,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -20181,7 +20181,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 10C (4GB RAM + 128GB)",
-      "price": 14990,
+      "price": 199,
       "rating": 73.0,
       "has_5g": false,
       "has_nfc": false,
@@ -20219,7 +20219,7 @@ const shopData: Product[] = [
     {
       "brand_name": "zte",
       "title": "ZTE Axon 40 Ultra 5G",
-      "price": 61990,
+      "price": 749,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -20257,7 +20257,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi 12 Pro 5G (12GB RAM + 256GB)",
-      "price": 51880,
+      "price": 649,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -20295,7 +20295,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO K10 (8GB RAM + 128GB)",
-      "price": 16990,
+      "price": 199,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -20333,7 +20333,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei Nova 9 SE",
-      "price": 19990,
+      "price": 249,
       "rating": 84.0,
       "has_5g": false,
       "has_nfc": true,
@@ -20371,7 +20371,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S22 5G (8GB RAM + 256GB)",
-      "price": 57999,
+      "price": 699,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -20409,7 +20409,7 @@ const shopData: Product[] = [
     {
       "brand_name": "lenovo",
       "title": "Lenovo Legion Y90",
-      "price": 46990,
+      "price": 549,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -20447,7 +20447,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y55 5G",
-      "price": 20990,
+      "price": 249,
       "rating": 77.0,
       "has_5g": true,
       "has_nfc": true,
@@ -20485,7 +20485,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nokia",
       "title": "Nokia X100 5G",
-      "price": 17990,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": true,
@@ -20523,7 +20523,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 8s 5G (8GB RAM + 128GB)",
-      "price": 17499,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -20561,7 +20561,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 8s 5G",
-      "price": 17999,
+      "price": 249,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -20599,7 +20599,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nokia",
       "title": "Nokia X60 Pro 5G",
-      "price": 49990,
+      "price": 599,
       "rating": null,
       "has_5g": true,
       "has_nfc": false,
@@ -20637,7 +20637,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco X5",
-      "price": 14999,
+      "price": 199,
       "rating": 74.0,
       "has_5g": true,
       "has_nfc": false,
@@ -20675,7 +20675,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 10 Pro Max (6GB RAM + 128GB)",
-      "price": 19980,
+      "price": 249,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -20713,7 +20713,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO 7 (12GB RAM + 256GB)",
-      "price": 35990,
+      "price": 449,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -20751,7 +20751,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 8",
-      "price": 15999,
+      "price": 199,
       "rating": 78.0,
       "has_5g": false,
       "has_nfc": false,
@@ -20789,7 +20789,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S20",
-      "price": 41999,
+      "price": 499,
       "rating": 88.0,
       "has_5g": false,
       "has_nfc": true,
@@ -20827,7 +20827,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi K60E",
-      "price": 25999,
+      "price": 349,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -20865,7 +20865,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto E32s",
-      "price": 7990,
+      "price": 99,
       "rating": 65.0,
       "has_5g": false,
       "has_nfc": false,
@@ -20903,7 +20903,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord 3T 5G",
-      "price": 29990,
+      "price": 349,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -20941,7 +20941,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO F23 Pro Plus 5G",
-      "price": 27990,
+      "price": 349,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -20979,7 +20979,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco F5 Pro",
-      "price": 29999,
+      "price": 349,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -21017,7 +21017,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A16e (4GB RAM + 64GB)",
-      "price": 8999,
+      "price": 149,
       "rating": 68.0,
       "has_5g": false,
       "has_nfc": false,
@@ -21055,7 +21055,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "POCO M4 Pro 4G (8GB RAM + 128GB)",
-      "price": 13999,
+      "price": 149,
       "rating": 81.0,
       "has_5g": false,
       "has_nfc": false,
@@ -21093,7 +21093,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 50A",
-      "price": 11499,
+      "price": 149,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -21131,7 +21131,7 @@ const shopData: Product[] = [
     {
       "brand_name": "asus",
       "title": "Asus ROG Phone 5s 5G",
-      "price": 39999,
+      "price": 449,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -21169,7 +21169,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme GT Master Edition 5G",
-      "price": 27999,
+      "price": 349,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -21207,7 +21207,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A32 5G",
-      "price": 24499,
+      "price": 299,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": true,
@@ -21245,7 +21245,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nubia",
       "title": "Nubia Red Magic 8 Pro Plus",
-      "price": 60999,
+      "price": 749,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -21283,7 +21283,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy Z Fold 3",
-      "price": 110999,
+      "price": 1349,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -21321,7 +21321,7 @@ const shopData: Product[] = [
     {
       "brand_name": "lg",
       "title": "LG Wing 5G",
-      "price": 54999,
+      "price": 649,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -21359,7 +21359,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 9 Pro Max",
-      "price": 16490,
+      "price": 199,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -21397,7 +21397,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A52",
-      "price": 24990,
+      "price": 299,
       "rating": 83.0,
       "has_5g": false,
       "has_nfc": false,
@@ -21435,7 +21435,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y71",
-      "price": 25000,
+      "price": 299,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -21473,7 +21473,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A04e (3GB RAM + 64GB)",
-      "price": 9950,
+      "price": 149,
       "rating": 66.0,
       "has_5g": false,
       "has_nfc": false,
@@ -21511,7 +21511,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo A56s",
-      "price": 12999,
+      "price": 149,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": false,
@@ -21549,7 +21549,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo Reno 8T 4G",
-      "price": 19999,
+      "price": 249,
       "rating": 83.0,
       "has_5g": false,
       "has_nfc": true,
@@ -21587,7 +21587,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno 10",
-      "price": 32999,
+      "price": 399,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -21625,7 +21625,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nokia",
       "title": "Nokia G60",
-      "price": 28498,
+      "price": 349,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": true,
@@ -21663,7 +21663,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A77 (4GB RAM + 128 GB)",
-      "price": 15998,
+      "price": 199,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -21701,7 +21701,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Edge 40 Pro 5G",
-      "price": 59990,
+      "price": 749,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -21739,7 +21739,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo K10x 5G",
-      "price": 16990,
+      "price": 199,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": false,
@@ -21777,7 +21777,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Z6 Pro 5G (12GB RAM + 256GB)",
-      "price": 27999,
+      "price": 349,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -21815,7 +21815,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nokia",
       "title": "Nokia G21 (6GB RAM + 128GB)",
-      "price": 13499,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -21853,7 +21853,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A13 (6GB RAM + 128GB)",
-      "price": 16499,
+      "price": 199,
       "rating": 78.0,
       "has_5g": false,
       "has_nfc": false,
@@ -21891,7 +21891,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A16K (4GB RAM + 64GB)",
-      "price": 10999,
+      "price": 149,
       "rating": 66.0,
       "has_5g": false,
       "has_nfc": false,
@@ -21929,7 +21929,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 10C",
-      "price": 13990,
+      "price": 149,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -21967,7 +21967,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Spark 9 Pro",
-      "price": 9999,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -22005,7 +22005,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme GT Neo 3 5G",
-      "price": 31994,
+      "price": 399,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -22043,7 +22043,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi 11i HyperCharge 5G",
-      "price": 24820,
+      "price": 299,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -22081,7 +22081,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Neo 6 SE 5G",
-      "price": 22990,
+      "price": 249,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -22119,7 +22119,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO 9 Pro 5G",
-      "price": 59990,
+      "price": 749,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -22157,7 +22157,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 50i (4GB RAM + 64GB)",
-      "price": 8999,
+      "price": 149,
       "rating": 62.0,
       "has_5g": false,
       "has_nfc": false,
@@ -22195,7 +22195,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 9 Activ (6GB RAM + 128GB)",
-      "price": 10499,
+      "price": 149,
       "rating": 72.0,
       "has_5g": false,
       "has_nfc": false,
@@ -22233,7 +22233,7 @@ const shopData: Product[] = [
     {
       "brand_name": "jio",
       "title": "Jio JioPhone Next (3GB RAM + 32GB)",
-      "price": 7499,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -22271,7 +22271,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 8 2021",
-      "price": 9990,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -22309,7 +22309,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 10 5G",
-      "price": 12490,
+      "price": 149,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": false,
@@ -22347,7 +22347,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y20G",
-      "price": 13990,
+      "price": 149,
       "rating": 69.0,
       "has_5g": false,
       "has_nfc": false,
@@ -22385,7 +22385,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A22 5G",
-      "price": 17990,
+      "price": 249,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -22423,7 +22423,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V21",
-      "price": 24999,
+      "price": 299,
       "rating": 83.0,
       "has_5g": false,
       "has_nfc": false,
@@ -22461,7 +22461,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 7 Pro (8GB RAM + 128GB)",
-      "price": 21999,
+      "price": 249,
       "rating": 85.0,
       "has_5g": false,
       "has_nfc": false,
@@ -22499,7 +22499,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord Lite",
-      "price": 19999,
+      "price": 249,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -22537,7 +22537,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S20 Ultra 5G",
-      "price": 99999,
+      "price": 1199,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -22575,7 +22575,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 11 Pro Max",
-      "price": 109900,
+      "price": 1299,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": true,
@@ -22613,7 +22613,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 7s",
-      "price": 52990,
+      "price": 649,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -22651,7 +22651,7 @@ const shopData: Product[] = [
     {
       "brand_name": "sony",
       "title": "Sony Xperia Ace IV",
-      "price": 19990,
+      "price": 249,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": true,
@@ -22689,7 +22689,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A04e (4GB RAM + 128GB)",
-      "price": 11499,
+      "price": 149,
       "rating": 69.0,
       "has_5g": false,
       "has_nfc": false,
@@ -22727,7 +22727,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 12 4G",
-      "price": 13999,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -22765,7 +22765,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oukitel",
       "title": "Oukitel WP21",
-      "price": 22990,
+      "price": 249,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -22803,7 +22803,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V28",
-      "price": 28990,
+      "price": 349,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -22841,7 +22841,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco F4 5G (8GB RAM + 128GB)",
-      "price": 27999,
+      "price": 349,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -22879,7 +22879,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11T Pro 5G",
-      "price": 19990,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": true,
@@ -22917,7 +22917,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 50 Pro 5G (8GB RAM + 128GB)",
-      "price": 22999,
+      "price": 249,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -22955,7 +22955,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo T1 44W (8GB RAM + 128GB)",
-      "price": 17999,
+      "price": 249,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -22993,7 +22993,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11S (6GB RAM + 128GB)",
-      "price": 15499,
+      "price": 199,
       "rating": 81.0,
       "has_5g": false,
       "has_nfc": false,
@@ -23031,7 +23031,7 @@ const shopData: Product[] = [
     {
       "brand_name": "lava",
       "title": "Lava Agni 5G",
-      "price": 17990,
+      "price": 249,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -23069,7 +23069,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 8i (6GB RAM + 128GB)",
-      "price": 13999,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -23107,7 +23107,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A55 4G",
-      "price": 13499,
+      "price": 149,
       "rating": 73.0,
       "has_5g": false,
       "has_nfc": false,
@@ -23145,7 +23145,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "POCO M3 Pro 5G (6GB RAM + 128GB)",
-      "price": 14799,
+      "price": 199,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -23183,7 +23183,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C21Y",
-      "price": 6999,
+      "price": 99,
       "rating": 62.0,
       "has_5g": false,
       "has_nfc": false,
@@ -23221,7 +23221,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A16",
-      "price": 11999,
+      "price": 149,
       "rating": 69.0,
       "has_5g": false,
       "has_nfc": false,
@@ -23259,7 +23259,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V21 5G",
-      "price": 23994,
+      "price": 299,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -23297,7 +23297,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 12 Pro (512GB)",
-      "price": 139900,
+      "price": 1649,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": true,
@@ -23335,7 +23335,7 @@ const shopData: Product[] = [
     {
       "brand_name": "sony",
       "title": "Sony Xperia 1 II",
-      "price": 69999,
+      "price": 849,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -23373,7 +23373,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Edge Plus",
-      "price": 57999,
+      "price": 699,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -23411,7 +23411,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy Note 20",
-      "price": 86000,
+      "price": 1049,
       "rating": 87.0,
       "has_5g": false,
       "has_nfc": true,
@@ -23449,7 +23449,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A12",
-      "price": 11999,
+      "price": 149,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -23487,7 +23487,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 12 Pro 4G",
-      "price": 14999,
+      "price": 199,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": true,
@@ -23525,7 +23525,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme GT Neo 3T (8GB RAM + 128GB)",
-      "price": 26499,
+      "price": 349,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": false,
@@ -23563,7 +23563,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C30s (4GB RAM + 64GB)",
-      "price": 8990,
+      "price": 149,
       "rating": 62.0,
       "has_5g": false,
       "has_nfc": false,
@@ -23601,7 +23601,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 14 (512GB)",
-      "price": 95999,
+      "price": 1149,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": true,
@@ -23639,7 +23639,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO 9T 5G",
-      "price": 47990,
+      "price": 549,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -23677,7 +23677,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Camon 19 Pro",
-      "price": 17990,
+      "price": 249,
       "rating": 81.0,
       "has_5g": false,
       "has_nfc": false,
@@ -23715,7 +23715,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord 2 Lite 5G",
-      "price": 22999,
+      "price": 249,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -23753,7 +23753,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S22 Ultra 5G (8GB RAM + 128GB)",
-      "price": 99990,
+      "price": 1199,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -23791,7 +23791,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "POCO F4 GT 5G",
-      "price": 39999,
+      "price": 449,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -23829,7 +23829,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi 11T Pro 5G (12GB RAM + 256GB)",
-      "price": 38999,
+      "price": 449,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -23867,7 +23867,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y10",
-      "price": 12490,
+      "price": 149,
       "rating": 63.0,
       "has_5g": false,
       "has_nfc": false,
@@ -23905,7 +23905,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A83 5G",
-      "price": 39990,
+      "price": 449,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -23943,7 +23943,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y33s",
-      "price": 16685,
+      "price": 199,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -23981,7 +23981,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei Mate 40 Pro 4G",
-      "price": 69990,
+      "price": 849,
       "rating": null,
       "has_5g": false,
       "has_nfc": true,
@@ -24019,7 +24019,7 @@ const shopData: Product[] = [
     {
       "brand_name": "micromax",
       "title": "Micromax IN 2B",
-      "price": 6999,
+      "price": 99,
       "rating": 66.0,
       "has_5g": false,
       "has_nfc": false,
@@ -24057,7 +24057,7 @@ const shopData: Product[] = [
     {
       "brand_name": "asus",
       "title": "Asus ROG Phone 6",
-      "price": 71999,
+      "price": 849,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -24095,7 +24095,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme X7 Max",
-      "price": 26999,
+      "price": 349,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -24133,7 +24133,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 8 5G",
-      "price": 16499,
+      "price": 199,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": false,
@@ -24171,7 +24171,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A55 5G",
-      "price": 17990,
+      "price": 249,
       "rating": 74.0,
       "has_5g": true,
       "has_nfc": false,
@@ -24209,7 +24209,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 9",
-      "price": 8999,
+      "price": 149,
       "rating": 68.0,
       "has_5g": false,
       "has_nfc": false,
@@ -24247,7 +24247,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone SE 2020",
-      "price": 39900,
+      "price": 449,
       "rating": 63.0,
       "has_5g": false,
       "has_nfc": true,
@@ -24285,7 +24285,7 @@ const shopData: Product[] = [
     {
       "brand_name": "letv",
       "title": "Letv Y1 Pro Plus",
-      "price": 5999,
+      "price": 49,
       "rating": 60.0,
       "has_5g": false,
       "has_nfc": false,
@@ -24323,7 +24323,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord 5",
-      "price": 34999,
+      "price": 449,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": true,
@@ -24361,7 +24361,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y73T",
-      "price": 16990,
+      "price": 199,
       "rating": 77.0,
       "has_5g": true,
       "has_nfc": false,
@@ -24399,7 +24399,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno 9 Z",
-      "price": 22990,
+      "price": 249,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -24437,7 +24437,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V25e",
-      "price": 19990,
+      "price": 249,
       "rating": 84.0,
       "has_5g": false,
       "has_nfc": false,
@@ -24475,7 +24475,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Hot 12 Pro",
-      "price": 10850,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -24513,7 +24513,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 50 5G (4GB RAM + 64GB)",
-      "price": 13499,
+      "price": 149,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": false,
@@ -24551,7 +24551,7 @@ const shopData: Product[] = [
     {
       "brand_name": "itel",
       "title": "itel Vision 3",
-      "price": 6699,
+      "price": 99,
       "rating": 61.0,
       "has_5g": false,
       "has_nfc": false,
@@ -24589,7 +24589,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A96 4G",
-      "price": 17999,
+      "price": 249,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -24627,7 +24627,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11E 5G",
-      "price": 13990,
+      "price": 149,
       "rating": 69.0,
       "has_5g": true,
       "has_nfc": false,
@@ -24665,7 +24665,7 @@ const shopData: Product[] = [
     {
       "brand_name": "honor",
       "title": "Honor Magic 4 Pro Plus 5G",
-      "price": 94990,
+      "price": 1149,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -24703,7 +24703,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Spark 9T",
-      "price": 8968,
+      "price": 149,
       "rating": 72.0,
       "has_5g": false,
       "has_nfc": false,
@@ -24741,7 +24741,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Smart 6",
-      "price": 7320,
+      "price": 99,
       "rating": 60.0,
       "has_5g": false,
       "has_nfc": false,
@@ -24779,7 +24779,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C25Y (4GB RAM + 64GB)",
-      "price": 8999,
+      "price": 149,
       "rating": 69.0,
       "has_5g": false,
       "has_nfc": false,
@@ -24817,7 +24817,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A12 (6GB RAM + 128GB)",
-      "price": 13999,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -24855,7 +24855,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Camon 19",
-      "price": 14746,
+      "price": 149,
       "rating": 79.0,
       "has_5g": false,
       "has_nfc": true,
@@ -24893,7 +24893,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 10 Pro 5G",
-      "price": 16999,
+      "price": 199,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -24931,7 +24931,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Mi 11X 5G (8GB RAM + 128GB)",
-      "price": 25990,
+      "price": 349,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -24969,7 +24969,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 10 (6GB RAM + 128GB)",
-      "price": 16499,
+      "price": 199,
       "rating": 78.0,
       "has_5g": false,
       "has_nfc": false,
@@ -25007,7 +25007,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 10 Pro Max",
-      "price": 19999,
+      "price": 249,
       "rating": 81.0,
       "has_5g": false,
       "has_nfc": false,
@@ -25045,7 +25045,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Mi 10T 5G",
-      "price": 23500,
+      "price": 299,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": true,
@@ -25083,7 +25083,7 @@ const shopData: Product[] = [
     {
       "brand_name": "lg",
       "title": "LG Velvet 5G",
-      "price": 54999,
+      "price": 649,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -25121,7 +25121,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola One Fusion Plus",
-      "price": 19499,
+      "price": 249,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -25159,7 +25159,7 @@ const shopData: Product[] = [
     {
       "brand_name": "lg",
       "title": "LG V60 ThinQ",
-      "price": 79990,
+      "price": 949,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -25197,7 +25197,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy Note 10 Lite",
-      "price": 39999,
+      "price": 449,
       "rating": 83.0,
       "has_5g": false,
       "has_nfc": true,
@@ -25235,7 +25235,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy Note 10 Plus 5G",
-      "price": 92999,
+      "price": 1099,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -25273,7 +25273,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Neo 7 Racing Edition",
-      "price": 32990,
+      "price": 399,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -25311,7 +25311,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A04s (4GB RAM + 128GB)",
-      "price": 14499,
+      "price": 149,
       "rating": 72.0,
       "has_5g": false,
       "has_nfc": false,
@@ -25349,7 +25349,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y35 5G",
-      "price": 13999,
+      "price": 149,
       "rating": 70.0,
       "has_5g": true,
       "has_nfc": false,
@@ -25387,7 +25387,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y02 (2GB RAM + 32GB)",
-      "price": 7999,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -25425,7 +25425,7 @@ const shopData: Product[] = [
     {
       "brand_name": "itel",
       "title": "itel Vision 3 (2GB RAM + 32GB)",
-      "price": 5785,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -25463,7 +25463,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11R",
-      "price": 12990,
+      "price": 149,
       "rating": 73.0,
       "has_5g": true,
       "has_nfc": false,
@@ -25501,7 +25501,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco M6 Pro",
-      "price": 19990,
+      "price": 249,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -25539,7 +25539,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A97 5G",
-      "price": 23990,
+      "price": 299,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -25577,7 +25577,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A24",
-      "price": 17999,
+      "price": 249,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -25615,7 +25615,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Note 13 Pro",
-      "price": 16999,
+      "price": 199,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -25653,7 +25653,7 @@ const shopData: Product[] = [
     {
       "brand_name": "honor",
       "title": "Honor Play 30",
-      "price": 9999,
+      "price": 149,
       "rating": 68.0,
       "has_5g": true,
       "has_nfc": false,
@@ -25691,7 +25691,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Smart 6 Plus",
-      "price": 8299,
+      "price": 99,
       "rating": 63.0,
       "has_5g": false,
       "has_nfc": false,
@@ -25729,7 +25729,7 @@ const shopData: Product[] = [
     {
       "brand_name": "sony",
       "title": "Sony Xperia 5 IV 5G",
-      "price": 82199,
+      "price": 949,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -25767,7 +25767,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nubia",
       "title": "Nubia Z40 Pro 5G",
-      "price": 49990,
+      "price": 599,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -25805,7 +25805,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nokia",
       "title": "Nokia G21",
-      "price": 11999,
+      "price": 149,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -25843,7 +25843,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi 12 Lite 5G",
-      "price": 29990,
+      "price": 349,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": true,
@@ -25881,7 +25881,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo Find N 5G",
-      "price": 92249,
+      "price": 1099,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -25919,7 +25919,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 13 Pro Max (256GB)",
-      "price": 139900,
+      "price": 1649,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -25957,7 +25957,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y21s",
-      "price": 14990,
+      "price": 199,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -25995,7 +25995,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO F19s",
-      "price": 15988,
+      "price": 199,
       "rating": 79.0,
       "has_5g": false,
       "has_nfc": false,
@@ -26033,7 +26033,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M21 2021",
-      "price": 11725,
+      "price": 149,
       "rating": 76.0,
       "has_5g": false,
       "has_nfc": false,
@@ -26071,7 +26071,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO F19 Pro",
-      "price": 17994,
+      "price": 249,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -26109,7 +26109,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO X 2021",
-      "price": 134999,
+      "price": 1599,
       "rating": 86.0,
       "has_5g": false,
       "has_nfc": false,
@@ -26147,7 +26147,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord N10",
-      "price": 25595,
+      "price": 349,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": true,
@@ -26185,7 +26185,7 @@ const shopData: Product[] = [
     {
       "brand_name": "gionee",
       "title": "Gionee M12 Pro",
-      "price": 7499,
+      "price": 99,
       "rating": 67.0,
       "has_5g": false,
       "has_nfc": false,
@@ -26223,7 +26223,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco M2",
-      "price": 10890,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -26261,7 +26261,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO F17 Pro",
-      "price": 18990,
+      "price": 249,
       "rating": 83.0,
       "has_5g": false,
       "has_nfc": false,
@@ -26299,7 +26299,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G 5G",
-      "price": 19990,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": true,
@@ -26337,7 +26337,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A50s",
-      "price": 15990,
+      "price": 199,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": true,
@@ -26375,7 +26375,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy Note 10 Plus",
-      "price": 58999,
+      "price": 699,
       "rating": 89.0,
       "has_5g": false,
       "has_nfc": true,
@@ -26413,7 +26413,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y15",
-      "price": 12500,
+      "price": 149,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -26451,7 +26451,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo S1 Pro",
-      "price": 29999,
+      "price": 349,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -26489,7 +26489,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo T3 Pro",
-      "price": 31990,
+      "price": 399,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": false,
@@ -26527,7 +26527,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V21s",
-      "price": 29999,
+      "price": 349,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -26565,7 +26565,7 @@ const shopData: Product[] = [
     {
       "brand_name": "asus",
       "title": "Asus ROG Phone 6D Ultimate",
-      "price": 107990,
+      "price": 1249,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -26603,7 +26603,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto Edge 30 Neo",
-      "price": 31990,
+      "price": 399,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -26641,7 +26641,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi 12T",
-      "price": 48990,
+      "price": 599,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -26679,7 +26679,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei Mate 50 Pro 5G",
-      "price": 99990,
+      "price": 1199,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -26717,7 +26717,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C32",
-      "price": 9499,
+      "price": 149,
       "rating": 65.0,
       "has_5g": false,
       "has_nfc": false,
@@ -26755,7 +26755,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei Mate Xs 2",
-      "price": 162990,
+      "price": 1949,
       "rating": 89.0,
       "has_5g": false,
       "has_nfc": true,
@@ -26793,7 +26793,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Z7 Pro 5G",
-      "price": 24999,
+      "price": 299,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -26831,7 +26831,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 15",
-      "price": 82990,
+      "price": 999,
       "rating": 72.0,
       "has_5g": false,
       "has_nfc": true,
@@ -26869,7 +26869,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Note 11S (8GB RAM + 128GB)",
-      "price": 15999,
+      "price": 199,
       "rating": 79.0,
       "has_5g": false,
       "has_nfc": false,
@@ -26907,7 +26907,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Spark 8 (4GB RAM + 64GB)",
-      "price": 8999,
+      "price": 149,
       "rating": 64.0,
       "has_5g": false,
       "has_nfc": false,
@@ -26945,7 +26945,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo A56 5G",
-      "price": 17990,
+      "price": 249,
       "rating": 73.0,
       "has_5g": true,
       "has_nfc": false,
@@ -26983,7 +26983,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo X80 Pro Plus 5G",
-      "price": 82990,
+      "price": 999,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -27021,7 +27021,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 10 Prime (6GB RAM + 128GB)",
-      "price": 12999,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -27059,7 +27059,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei Nova 9",
-      "price": 29990,
+      "price": 349,
       "rating": 83.0,
       "has_5g": false,
       "has_nfc": true,
@@ -27097,7 +27097,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Pop 5 Go",
-      "price": 6999,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -27135,7 +27135,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei P50 Pro 4G",
-      "price": 60999,
+      "price": 749,
       "rating": null,
       "has_5g": false,
       "has_nfc": true,
@@ -27173,7 +27173,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi K50 5G",
-      "price": 27990,
+      "price": 349,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -27211,7 +27211,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nokia",
       "title": "Nokia C01 Plus",
-      "price": 5249,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -27249,7 +27249,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Q3",
-      "price": 14999,
+      "price": 199,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -27287,7 +27287,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno 6 Pro Plus 5G",
-      "price": 44990,
+      "price": 549,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -27325,7 +27325,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Edge S",
-      "price": 22490,
+      "price": 249,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -27363,7 +27363,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo Find X3 Pro",
-      "price": 50990,
+      "price": 599,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -27401,7 +27401,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco M3",
-      "price": 11499,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -27439,7 +27439,7 @@ const shopData: Product[] = [
     {
       "brand_name": "itel",
       "title": "itel S16",
-      "price": 5990,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -27477,7 +27477,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V20 Pro",
-      "price": 27000,
+      "price": 349,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -27515,7 +27515,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Mi 10T Pro 5G",
-      "price": 29999,
+      "price": 349,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -27553,7 +27553,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V19 (8GB RAM + 256GB)",
-      "price": 27990,
+      "price": 349,
       "rating": 84.0,
       "has_5g": false,
       "has_nfc": false,
@@ -27591,7 +27591,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S20 5G",
-      "price": 74999,
+      "price": 899,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -27629,7 +27629,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo U3",
-      "price": 9990,
+      "price": 149,
       "rating": 72.0,
       "has_5g": false,
       "has_nfc": false,
@@ -27667,7 +27667,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo K5 (8GB RAM + 128GB)",
-      "price": 19990,
+      "price": 249,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -27705,7 +27705,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme XT",
-      "price": 13279,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -27743,7 +27743,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y12 (3GB RAM + 64GB)",
-      "price": 11000,
+      "price": 149,
       "rating": 68.0,
       "has_5g": false,
       "has_nfc": false,
@@ -27781,7 +27781,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Poco F1 (6GB RAM + 128GB)",
-      "price": 12999,
+      "price": 149,
       "rating": 78.0,
       "has_5g": false,
       "has_nfc": false,
@@ -27819,7 +27819,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco C50 (3GB RAM + 32GB)",
-      "price": 7299,
+      "price": 99,
       "rating": 61.0,
       "has_5g": false,
       "has_nfc": false,
@@ -27857,7 +27857,7 @@ const shopData: Product[] = [
     {
       "brand_name": "ikall",
       "title": "iKall Z19",
-      "price": 7999,
+      "price": 99,
       "rating": 61.0,
       "has_5g": false,
       "has_nfc": false,
@@ -27895,7 +27895,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi K60 Gaming Edition",
-      "price": 54990,
+      "price": 649,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -27933,7 +27933,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo S17 Pro",
-      "price": 49990,
+      "price": 599,
       "rating": 77.0,
       "has_5g": true,
       "has_nfc": true,
@@ -27971,7 +27971,7 @@ const shopData: Product[] = [
     {
       "brand_name": "honor",
       "title": "Honor 80 Pro Plus",
-      "price": 54990,
+      "price": 649,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -28009,7 +28009,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone SE 4",
-      "price": 49990,
+      "price": 599,
       "rating": 60.0,
       "has_5g": true,
       "has_nfc": true,
@@ -28047,7 +28047,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Pova Neo 5G",
-      "price": 15499,
+      "price": 199,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -28085,7 +28085,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 14 Pro Max (512GB)",
-      "price": 169900,
+      "price": 1999,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": true,
@@ -28123,7 +28123,7 @@ const shopData: Product[] = [
     {
       "brand_name": "google",
       "title": "Google Pixel 8",
-      "price": 53990,
+      "price": 649,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": true,
@@ -28161,7 +28161,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo T2x 5G",
-      "price": 18990,
+      "price": 249,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -28199,7 +28199,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G52 5G",
-      "price": 16999,
+      "price": 199,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": true,
@@ -28237,7 +28237,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Edge 40 5G",
-      "price": 34999,
+      "price": 449,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -28275,7 +28275,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo X Note 5G (12GB RAM + 512GB)",
-      "price": 82990,
+      "price": 999,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -28313,7 +28313,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme GT 2 Pro 5G (12GB RAM + 256GB)",
-      "price": 46999,
+      "price": 549,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -28351,7 +28351,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y15C",
-      "price": 8499,
+      "price": 99,
       "rating": 66.0,
       "has_5g": false,
       "has_nfc": false,
@@ -28389,7 +28389,7 @@ const shopData: Product[] = [
     {
       "brand_name": "honor",
       "title": "Honor X8",
-      "price": 16999,
+      "price": 199,
       "rating": 76.0,
       "has_5g": false,
       "has_nfc": false,
@@ -28427,7 +28427,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A03 (4GB RAM + 64GB)",
-      "price": 11499,
+      "price": 149,
       "rating": 69.0,
       "has_5g": false,
       "has_nfc": false,
@@ -28465,7 +28465,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S22 Plus 5G (8GB RAM + 256GB)",
-      "price": 88999,
+      "price": 1049,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -28503,7 +28503,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y33T",
-      "price": 15990,
+      "price": 199,
       "rating": 81.0,
       "has_5g": false,
       "has_nfc": false,
@@ -28541,7 +28541,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi 11i 5G (8GB RAM + 128GB)",
-      "price": 24990,
+      "price": 299,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -28579,7 +28579,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo Find X5 Pro 5G",
-      "price": 79990,
+      "price": 949,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -28617,7 +28617,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Spark Go 2022",
-      "price": 6249,
+      "price": 49,
       "rating": 61.0,
       "has_5g": false,
       "has_nfc": false,
@@ -28655,7 +28655,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y21e",
-      "price": 12499,
+      "price": 149,
       "rating": 69.0,
       "has_5g": false,
       "has_nfc": false,
@@ -28693,7 +28693,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 9A Sport",
-      "price": 6499,
+      "price": 99,
       "rating": 61.0,
       "has_5g": false,
       "has_nfc": false,
@@ -28731,7 +28731,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 13 Pro Max (1TB)",
-      "price": 179900,
+      "price": 2149,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -28769,7 +28769,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y12G (3GB RAM + 64GB)",
-      "price": 11990,
+      "price": 149,
       "rating": 68.0,
       "has_5g": false,
       "has_nfc": false,
@@ -28807,7 +28807,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V23e",
-      "price": 26990,
+      "price": 349,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -28845,7 +28845,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy F22 (6GB RAM + 128GB)",
-      "price": 13499,
+      "price": 149,
       "rating": 76.0,
       "has_5g": false,
       "has_nfc": false,
@@ -28883,7 +28883,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi 12 Ultra 5G",
-      "price": 75999,
+      "price": 899,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -28921,7 +28921,7 @@ const shopData: Product[] = [
     {
       "brand_name": "micromax",
       "title": "Micromax IN 2C",
-      "price": 5999,
+      "price": 49,
       "rating": 60.0,
       "has_5g": false,
       "has_nfc": false,
@@ -28959,7 +28959,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A03s",
-      "price": 8499,
+      "price": 99,
       "rating": 67.0,
       "has_5g": false,
       "has_nfc": false,
@@ -28997,7 +28997,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A54 (4GB RAM + 128GB)",
-      "price": 11990,
+      "price": 149,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -29035,7 +29035,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 20X",
-      "price": 10990,
+      "price": 149,
       "rating": 77.0,
       "has_5g": true,
       "has_nfc": false,
@@ -29073,7 +29073,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Mi Mix Fold",
-      "price": 109990,
+      "price": 1299,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -29111,7 +29111,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 30 5G",
-      "price": 16999,
+      "price": 199,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": true,
@@ -29149,7 +29149,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A54",
-      "price": 12199,
+      "price": 149,
       "rating": 70.0,
       "has_5g": false,
       "has_nfc": false,
@@ -29187,7 +29187,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo A15s (4GB RAM + 128GB)",
-      "price": 11490,
+      "price": 149,
       "rating": 72.0,
       "has_5g": false,
       "has_nfc": false,
@@ -29225,7 +29225,7 @@ const shopData: Product[] = [
     {
       "brand_name": "itel",
       "title": "itel A56",
-      "price": 5490,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -29263,7 +29263,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 9 Power",
-      "price": 11499,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -29301,7 +29301,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S21 Plus",
-      "price": 59450,
+      "price": 699,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -29339,7 +29339,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "POCO M2 Pro",
-      "price": 12799,
+      "price": 149,
       "rating": 76.0,
       "has_5g": false,
       "has_nfc": false,
@@ -29377,7 +29377,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S20 Plus",
-      "price": 83000,
+      "price": 999,
       "rating": 88.0,
       "has_5g": false,
       "has_nfc": true,
@@ -29415,7 +29415,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 6 Pro",
-      "price": 14490,
+      "price": 149,
       "rating": 80.0,
       "has_5g": false,
       "has_nfc": false,
@@ -29453,7 +29453,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei P40 Pro",
-      "price": 82990,
+      "price": 999,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -29491,7 +29491,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y11 (2019)",
-      "price": 9490,
+      "price": 149,
       "rating": 64.0,
       "has_5g": false,
       "has_nfc": false,
@@ -29529,7 +29529,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V15 Pro (8GB RAM +128GB)",
-      "price": 25000,
+      "price": 299,
       "rating": 78.0,
       "has_5g": false,
       "has_nfc": false,
@@ -29567,7 +29567,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y95",
-      "price": 15000,
+      "price": 199,
       "rating": 65.0,
       "has_5g": false,
       "has_nfc": false,
@@ -29605,7 +29605,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V11i",
-      "price": 20990,
+      "price": 249,
       "rating": 70.0,
       "has_5g": false,
       "has_nfc": false,
@@ -29643,7 +29643,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S9 Plus (128GB)",
-      "price": 34999,
+      "price": 449,
       "rating": 78.0,
       "has_5g": false,
       "has_nfc": true,
@@ -29681,7 +29681,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme GT Neo 4T",
-      "price": 29999,
+      "price": 349,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -29719,7 +29719,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y53t",
-      "price": 11999,
+      "price": 149,
       "rating": 67.0,
       "has_5g": true,
       "has_nfc": false,
@@ -29757,7 +29757,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A04 (4GB RAM + 128GB)",
-      "price": 12999,
+      "price": 149,
       "rating": 72.0,
       "has_5g": false,
       "has_nfc": false,
@@ -29795,7 +29795,7 @@ const shopData: Product[] = [
     {
       "brand_name": "leitz",
       "title": "Leitz Phone 2",
-      "price": 124990,
+      "price": 1449,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -29833,7 +29833,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi K60i",
-      "price": 28999,
+      "price": 349,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -29871,7 +29871,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Hot 20S",
-      "price": 12999,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -29909,7 +29909,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme GT Neo 3T (8GB RAM + 256GB)",
-      "price": 28499,
+      "price": 349,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -29947,7 +29947,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 14 Plus (512GB)",
-      "price": 104999,
+      "price": 1249,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -29985,7 +29985,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 14 Pro (1TB)",
-      "price": 172999,
+      "price": 2049,
       "rating": 77.0,
       "has_5g": true,
       "has_nfc": true,
@@ -30023,7 +30023,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 13 Prime 5G",
-      "price": 17990,
+      "price": 249,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -30061,7 +30061,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 11 Prime (6GB RAM + 128GB)",
-      "price": 13774,
+      "price": 149,
       "rating": 76.0,
       "has_5g": false,
       "has_nfc": false,
@@ -30099,7 +30099,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nokia",
       "title": "Nokia C21 Plus (4GB RAM + 64GB)",
-      "price": 8999,
+      "price": 149,
       "rating": 64.0,
       "has_5g": false,
       "has_nfc": false,
@@ -30137,7 +30137,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord N300",
-      "price": 18990,
+      "price": 249,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": true,
@@ -30175,7 +30175,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Camon 19 Neo",
-      "price": 14999,
+      "price": 199,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": true,
@@ -30213,7 +30213,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 50i Prime",
-      "price": 7999,
+      "price": 99,
       "rating": 61.0,
       "has_5g": false,
       "has_nfc": false,
@@ -30251,7 +30251,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi K50 Ultra 5G",
-      "price": 39999,
+      "price": 449,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -30289,7 +30289,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A57 4G",
-      "price": 11990,
+      "price": 149,
       "rating": 67.0,
       "has_5g": false,
       "has_nfc": false,
@@ -30327,7 +30327,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Note 12 (6GB RAM + 128GB)",
-      "price": 12999,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -30365,7 +30365,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S23 FE 5G",
-      "price": 54999,
+      "price": 649,
       "rating": 77.0,
       "has_5g": true,
       "has_nfc": true,
@@ -30403,7 +30403,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M51s 5G",
-      "price": 24990,
+      "price": 299,
       "rating": 72.0,
       "has_5g": true,
       "has_nfc": false,
@@ -30441,7 +30441,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo X80 5G (12GB RAM + 256GB)",
-      "price": 59999,
+      "price": 749,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": false,
@@ -30479,7 +30479,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco X6 Pro 5G",
-      "price": 19999,
+      "price": 249,
       "rating": 72.0,
       "has_5g": true,
       "has_nfc": false,
@@ -30517,7 +30517,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Note 12 (G96)",
-      "price": 16999,
+      "price": 199,
       "rating": 79.0,
       "has_5g": false,
       "has_nfc": false,
@@ -30555,7 +30555,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M14",
-      "price": 14999,
+      "price": 199,
       "rating": 60.0,
       "has_5g": false,
       "has_nfc": false,
@@ -30593,7 +30593,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo T2 Pro 5G",
-      "price": 29990,
+      "price": 349,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": false,
@@ -30631,7 +30631,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 10 Prime Plus 5G",
-      "price": 13990,
+      "price": 149,
       "rating": 69.0,
       "has_5g": true,
       "has_nfc": false,
@@ -30669,7 +30669,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 11 Pro 4G",
-      "price": 17999,
+      "price": 249,
       "rating": 81.0,
       "has_5g": false,
       "has_nfc": false,
@@ -30707,7 +30707,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 50A Prime",
-      "price": 11399,
+      "price": 149,
       "rating": 73.0,
       "has_5g": false,
       "has_nfc": false,
@@ -30745,7 +30745,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y55s 5G",
-      "price": 19990,
+      "price": 249,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -30783,7 +30783,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y21T",
-      "price": 15499,
+      "price": 199,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -30821,7 +30821,7 @@ const shopData: Product[] = [
     {
       "brand_name": "gionee",
       "title": "Gionee K10",
-      "price": 6999,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -30859,7 +30859,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 10 Lite (4GB RAM + 128GB)",
-      "price": 12499,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -30897,7 +30897,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 13 (512GB)",
-      "price": 91999,
+      "price": 1099,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": true,
@@ -30935,7 +30935,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Hot 11S",
-      "price": 9690,
+      "price": 149,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -30973,7 +30973,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme GT Explorer Master Edition",
-      "price": 32990,
+      "price": 399,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -31011,7 +31011,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Mi 12 5G",
-      "price": 42990,
+      "price": 549,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -31049,7 +31049,7 @@ const shopData: Product[] = [
     {
       "brand_name": "cat",
       "title": "CAT S22 Flip",
-      "price": 14999,
+      "price": 199,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -31087,7 +31087,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Mi 11 Lite (8GB RAM + 128GB)",
-      "price": 18699,
+      "price": 249,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -31125,7 +31125,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Q3i 5G",
-      "price": 10990,
+      "price": 149,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": false,
@@ -31163,7 +31163,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Mi 11X Pro",
-      "price": 30990,
+      "price": 349,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -31201,7 +31201,7 @@ const shopData: Product[] = [
     {
       "brand_name": "lenovo",
       "title": "Lenovo Legion Pro 2",
-      "price": 59999,
+      "price": 749,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -31239,7 +31239,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M62",
-      "price": 23999,
+      "price": 299,
       "rating": 83.0,
       "has_5g": false,
       "has_nfc": true,
@@ -31277,7 +31277,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Q2i",
-      "price": 9999,
+      "price": 149,
       "rating": 69.0,
       "has_5g": true,
       "has_nfc": false,
@@ -31315,7 +31315,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 12 Pro (256GB)",
-      "price": 119900,
+      "price": 1449,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": true,
@@ -31353,7 +31353,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 9i (4GB RAM + 128GB)",
-      "price": 9299,
+      "price": 149,
       "rating": 67.0,
       "has_5g": false,
       "has_nfc": false,
@@ -31391,7 +31391,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 6 (6GB RAM + 64GB)",
-      "price": 12989,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -31429,7 +31429,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A01 Core",
-      "price": 4999,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -31467,7 +31467,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo Reno 5",
-      "price": 29990,
+      "price": 349,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -31505,7 +31505,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo A31 2020 (6GB RAM + 128GB)",
-      "price": 12490,
+      "price": 149,
       "rating": 72.0,
       "has_5g": false,
       "has_nfc": false,
@@ -31543,7 +31543,7 @@ const shopData: Product[] = [
     {
       "brand_name": "sony",
       "title": "Sony Xperia 10 II",
-      "price": 27999,
+      "price": 349,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": true,
@@ -31581,7 +31581,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y91c",
-      "price": 8199,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -31619,7 +31619,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei Nova 7i",
-      "price": 21990,
+      "price": 249,
       "rating": 81.0,
       "has_5g": false,
       "has_nfc": false,
@@ -31657,7 +31657,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y19",
-      "price": 20000,
+      "price": 249,
       "rating": 73.0,
       "has_5g": false,
       "has_nfc": false,
@@ -31695,7 +31695,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo U3 (6GB RAM + 64GB)",
-      "price": 11990,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -31733,7 +31733,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 9",
-      "price": 11989,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -31771,7 +31771,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 8 (4GB RAM + 64GB)",
-      "price": 11490,
+      "price": 149,
       "rating": 66.0,
       "has_5g": false,
       "has_nfc": false,
@@ -31809,7 +31809,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola One Macro",
-      "price": 11490,
+      "price": 149,
       "rating": 68.0,
       "has_5g": false,
       "has_nfc": false,
@@ -31847,7 +31847,7 @@ const shopData: Product[] = [
     {
       "brand_name": "google",
       "title": "Google Pixel 3a XL",
-      "price": 15999,
+      "price": 199,
       "rating": 67.0,
       "has_5g": false,
       "has_nfc": true,
@@ -31885,7 +31885,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A40",
-      "price": 17990,
+      "price": 249,
       "rating": 69.0,
       "has_5g": false,
       "has_nfc": false,
@@ -31923,7 +31923,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S10 5G",
-      "price": 78990,
+      "price": 949,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -31961,7 +31961,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei Honor 9N",
-      "price": 10949,
+      "price": 149,
       "rating": 66.0,
       "has_5g": false,
       "has_nfc": false,
@@ -31999,7 +31999,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 4",
-      "price": 10300,
+      "price": 149,
       "rating": 65.0,
       "has_5g": false,
       "has_nfc": false,
@@ -32037,7 +32037,7 @@ const shopData: Product[] = [
     {
       "brand_name": "doogee",
       "title": "Doogee V Max",
-      "price": 45999,
+      "price": 549,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": false,
@@ -32075,7 +32075,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei Nova Y61",
-      "price": 21990,
+      "price": 249,
       "rating": 63.0,
       "has_5g": false,
       "has_nfc": false,
@@ -32113,7 +32113,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Z9",
-      "price": 19990,
+      "price": 249,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": false,
@@ -32151,7 +32151,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V29",
-      "price": 32990,
+      "price": 399,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -32189,7 +32189,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco M5 (6GB RAM + 128GB)",
-      "price": 14499,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -32227,7 +32227,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nokia",
       "title": "Nokia X30",
-      "price": 41990,
+      "price": 499,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -32265,7 +32265,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Pova Neo 2",
-      "price": 13990,
+      "price": 149,
       "rating": 67.0,
       "has_5g": false,
       "has_nfc": false,
@@ -32303,7 +32303,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y15C (3GB RAM + 64GB)",
-      "price": 10490,
+      "price": 149,
       "rating": 67.0,
       "has_5g": false,
       "has_nfc": false,
@@ -32341,7 +32341,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei Nova 10",
-      "price": 29990,
+      "price": 349,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -32379,7 +32379,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei Nova Y90",
-      "price": 22990,
+      "price": 249,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": true,
@@ -32417,7 +32417,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A92 5G",
-      "price": 47990,
+      "price": 549,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -32455,7 +32455,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Note 12 VIP",
-      "price": 19999,
+      "price": 249,
       "rating": 84.0,
       "has_5g": false,
       "has_nfc": false,
@@ -32493,7 +32493,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord 4 5G",
-      "price": 29999,
+      "price": 349,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": true,
@@ -32531,7 +32531,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 50A Prime (4GB RAM + 128GB)",
-      "price": 11879,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -32569,7 +32569,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Ace 5G",
-      "price": 28990,
+      "price": 349,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -32607,7 +32607,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO 9 5G (12GB RAM + 256GB)",
-      "price": 39990,
+      "price": 449,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": false,
@@ -32645,7 +32645,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 12T 5G",
-      "price": 15999,
+      "price": 199,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": false,
@@ -32683,7 +32683,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo A96 5G",
-      "price": 22990,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -32721,7 +32721,7 @@ const shopData: Product[] = [
     {
       "brand_name": "royole",
       "title": "Royole FlexPai 3 5G",
-      "price": 149999,
+      "price": 1749,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": false,
@@ -32759,7 +32759,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Camon 18",
-      "price": 11499,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": true,
@@ -32797,7 +32797,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Phantom X Pro",
-      "price": 22999,
+      "price": 249,
       "rating": 84.0,
       "has_5g": false,
       "has_nfc": false,
@@ -32835,7 +32835,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Spark 8T",
-      "price": 7999,
+      "price": 99,
       "rating": 70.0,
       "has_5g": false,
       "has_nfc": false,
@@ -32873,7 +32873,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme GT Neo2 5G",
-      "price": 31999,
+      "price": 399,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": true,
@@ -32911,7 +32911,7 @@ const shopData: Product[] = [
     {
       "brand_name": "sony",
       "title": "Sony Xperia 10 III Lite 5G",
-      "price": 30990,
+      "price": 349,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": true,
@@ -32949,7 +32949,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme G1",
-      "price": 7999,
+      "price": 99,
       "rating": 64.0,
       "has_5g": false,
       "has_nfc": false,
@@ -32987,7 +32987,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Pova 2",
-      "price": 10999,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -33025,7 +33025,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco X4",
-      "price": 14990,
+      "price": 199,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -33063,7 +33063,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G40 Fusion",
-      "price": 14499,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -33101,7 +33101,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus 9T",
-      "price": 44999,
+      "price": 549,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -33139,7 +33139,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 8 (8GB RAM + 128GB)",
-      "price": 17999,
+      "price": 249,
       "rating": 83.0,
       "has_5g": false,
       "has_nfc": false,
@@ -33177,7 +33177,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 30 Pro 5G (8GB RAM +128GB)",
-      "price": 19999,
+      "price": 249,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -33215,7 +33215,7 @@ const shopData: Product[] = [
     {
       "brand_name": "itel",
       "title": "Itel A23 Pro",
-      "price": 3999,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -33253,7 +33253,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S21 Ultra 5G (12GB RAM + 128GB)",
-      "price": 101999,
+      "price": 1199,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -33291,7 +33291,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo Reno 5 Pro 5G",
-      "price": 38700,
+      "price": 449,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": false,
@@ -33329,7 +33329,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord SE",
-      "price": 19999,
+      "price": 249,
       "rating": 73.0,
       "has_5g": false,
       "has_nfc": false,
@@ -33367,7 +33367,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M12",
-      "price": 10999,
+      "price": 149,
       "rating": 72.0,
       "has_5g": false,
       "has_nfc": false,
@@ -33405,7 +33405,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Nord N100",
-      "price": 16990,
+      "price": 199,
       "rating": 68.0,
       "has_5g": false,
       "has_nfc": false,
@@ -33443,7 +33443,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 12 Mini (256GB)",
-      "price": 55999,
+      "price": 649,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": true,
@@ -33481,7 +33481,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 12 (256GB)",
-      "price": 67999,
+      "price": 799,
       "rating": 76.0,
       "has_5g": true,
       "has_nfc": true,
@@ -33519,7 +33519,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A15",
-      "price": 9999,
+      "price": 149,
       "rating": 66.0,
       "has_5g": false,
       "has_nfc": false,
@@ -33557,7 +33557,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 9 Pro (4GB RAM + 128GB)",
-      "price": 14439,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -33595,7 +33595,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo A12",
-      "price": 9990,
+      "price": 149,
       "rating": 64.0,
       "has_5g": false,
       "has_nfc": false,
@@ -33633,7 +33633,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme X50 Pro 5G (8GB RAM + 128GB)",
-      "price": 24999,
+      "price": 299,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -33671,7 +33671,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy S20 Plus 5G",
-      "price": 85990,
+      "price": 1049,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -33709,7 +33709,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi K20 Pro Signature Edition",
-      "price": 480000,
+      "price": 5649,
       "rating": 88.0,
       "has_5g": false,
       "has_nfc": true,
@@ -33747,7 +33747,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi Note 8 Pro",
-      "price": 16999,
+      "price": 199,
       "rating": 78.0,
       "has_5g": false,
       "has_nfc": false,
@@ -33785,7 +33785,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme A1",
-      "price": 8999,
+      "price": 149,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -33823,7 +33823,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A73",
-      "price": 15990,
+      "price": 199,
       "rating": 62.0,
       "has_5g": false,
       "has_nfc": false,
@@ -33861,7 +33861,7 @@ const shopData: Product[] = [
     {
       "brand_name": "lyf",
       "title": "Lyf Earth 2",
-      "price": 3890,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -33899,7 +33899,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 15 Plus",
-      "price": 84990,
+      "price": 999,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": true,
@@ -33937,7 +33937,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y55s 2023",
-      "price": 21999,
+      "price": 249,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": true,
@@ -33975,7 +33975,7 @@ const shopData: Product[] = [
     {
       "brand_name": "lava",
       "title": "Lava Blaze NXT",
-      "price": 8999,
+      "price": 149,
       "rating": 66.0,
       "has_5g": false,
       "has_nfc": false,
@@ -34013,7 +34013,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Camon 20 Premier",
-      "price": 20999,
+      "price": 249,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": true,
@@ -34051,7 +34051,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO Reno 8 House of Dragon Edition",
-      "price": 32990,
+      "price": 399,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -34089,7 +34089,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto E22s",
-      "price": 9022,
+      "price": 149,
       "rating": 70.0,
       "has_5g": false,
       "has_nfc": false,
@@ -34127,7 +34127,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi A1 Plus (3GB RAM + 32GB)",
-      "price": 8399,
+      "price": 99,
       "rating": 61.0,
       "has_5g": false,
       "has_nfc": false,
@@ -34165,7 +34165,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Hot 20i",
-      "price": 9999,
+      "price": 149,
       "rating": 64.0,
       "has_5g": false,
       "has_nfc": false,
@@ -34203,7 +34203,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Spark 9 (3GB RAM + 64GB)",
-      "price": 8390,
+      "price": 99,
       "rating": 63.0,
       "has_5g": false,
       "has_nfc": false,
@@ -34241,7 +34241,7 @@ const shopData: Product[] = [
     {
       "brand_name": "zte",
       "title": "ZTE Axon 30S",
-      "price": 19999,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": true,
@@ -34279,7 +34279,7 @@ const shopData: Product[] = [
     {
       "brand_name": "honor",
       "title": "Honor X6",
-      "price": 13999,
+      "price": 149,
       "rating": 71.0,
       "has_5g": false,
       "has_nfc": false,
@@ -34317,7 +34317,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Civi 2",
-      "price": 29999,
+      "price": 349,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -34355,7 +34355,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tcl",
       "title": "TCL Ion X",
-      "price": 8990,
+      "price": 149,
       "rating": 60.0,
       "has_5g": false,
       "has_nfc": false,
@@ -34393,7 +34393,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy Z Fold 4 (12GB RAM + 1TB)",
-      "price": 163980,
+      "price": 1949,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -34431,7 +34431,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nothing",
       "title": "Nothing Phone 1 Lite",
-      "price": 24990,
+      "price": 299,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": true,
@@ -34469,7 +34469,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto Edge X30 Pro",
-      "price": 59990,
+      "price": 749,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -34507,7 +34507,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Ace Pro",
-      "price": 47990,
+      "price": 549,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -34545,7 +34545,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme GT 2 Explorer Master Edition",
-      "price": 40990,
+      "price": 499,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -34583,7 +34583,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M35",
-      "price": 22999,
+      "price": 249,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": true,
@@ -34621,7 +34621,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A05",
-      "price": 12990,
+      "price": 149,
       "rating": 63.0,
       "has_5g": false,
       "has_nfc": false,
@@ -34659,7 +34659,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Note 12 Turbo",
-      "price": 14999,
+      "price": 199,
       "rating": 79.0,
       "has_5g": false,
       "has_nfc": false,
@@ -34697,7 +34697,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "POCO F5 GT 5G",
-      "price": 42999,
+      "price": 549,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -34735,7 +34735,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Z8 5G",
-      "price": 14999,
+      "price": 199,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": false,
@@ -34773,7 +34773,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y55 4G",
-      "price": 22990,
+      "price": 249,
       "rating": 83.0,
       "has_5g": false,
       "has_nfc": false,
@@ -34811,7 +34811,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo X Fold 5G (12GB RAM + 512GB)",
-      "price": 118990,
+      "price": 1399,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -34849,7 +34849,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo K10 Pro 5G",
-      "price": 29990,
+      "price": 349,
       "rating": 81.0,
       "has_5g": true,
       "has_nfc": false,
@@ -34887,7 +34887,7 @@ const shopData: Product[] = [
     {
       "brand_name": "tecno",
       "title": "Tecno Spark 8C",
-      "price": 7399,
+      "price": 99,
       "rating": 62.0,
       "has_5g": false,
       "has_nfc": false,
@@ -34925,7 +34925,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO Z7 5G",
-      "price": 17999,
+      "price": 249,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -34963,7 +34963,7 @@ const shopData: Product[] = [
     {
       "brand_name": "infinix",
       "title": "Infinix Note 11 (6GB RAM + 128GB)",
-      "price": 12799,
+      "price": 149,
       "rating": 77.0,
       "has_5g": false,
       "has_nfc": false,
@@ -35001,7 +35001,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi 11i HyperCharge 5G (8GB RAM + 128GB)",
-      "price": 26999,
+      "price": 349,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": false,
@@ -35039,7 +35039,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy F42 5G (8GB RAM + 128GB)",
-      "price": 22999,
+      "price": 249,
       "rating": 82.0,
       "has_5g": true,
       "has_nfc": false,
@@ -35077,7 +35077,7 @@ const shopData: Product[] = [
     {
       "brand_name": "apple",
       "title": "Apple iPhone 13 Pro (1TB)",
-      "price": 147900,
+      "price": 1749,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -35115,7 +35115,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nubia",
       "title": "Nubia Red Magic 6S 5G",
-      "price": 44999,
+      "price": 549,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -35153,7 +35153,7 @@ const shopData: Product[] = [
     {
       "brand_name": "micromax",
       "title": "Micromax IN 2B (6GB RAM + 64GB)",
-      "price": 7790,
+      "price": 99,
       "rating": 68.0,
       "has_5g": false,
       "has_nfc": false,
@@ -35191,7 +35191,7 @@ const shopData: Product[] = [
     {
       "brand_name": "nokia",
       "title": "Nokia X60 5G",
-      "price": 39990,
+      "price": 449,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": false,
@@ -35229,7 +35229,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y12a",
-      "price": 9999,
+      "price": 149,
       "rating": 65.0,
       "has_5g": false,
       "has_nfc": false,
@@ -35267,7 +35267,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo Reno 5A",
-      "price": 22990,
+      "price": 249,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": false,
@@ -35305,7 +35305,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco F3 GT",
-      "price": 32999,
+      "price": 399,
       "rating": 79.0,
       "has_5g": true,
       "has_nfc": false,
@@ -35343,7 +35343,7 @@ const shopData: Product[] = [
     {
       "brand_name": "honor",
       "title": "Honor 50",
-      "price": 32990,
+      "price": 399,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -35381,7 +35381,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A54 (6GB RAM + 128GB)",
-      "price": 14999,
+      "price": 199,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -35419,7 +35419,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme 8i",
-      "price": 12499,
+      "price": 149,
       "rating": 74.0,
       "has_5g": false,
       "has_nfc": false,
@@ -35457,7 +35457,7 @@ const shopData: Product[] = [
     {
       "brand_name": "iqoo",
       "title": "iQOO 7 Legend",
-      "price": 39990,
+      "price": 449,
       "rating": 84.0,
       "has_5g": true,
       "has_nfc": true,
@@ -35495,7 +35495,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C11 2021",
-      "price": 6499,
+      "price": 99,
       "rating": 61.0,
       "has_5g": false,
       "has_nfc": false,
@@ -35533,7 +35533,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A22",
-      "price": 18499,
+      "price": 249,
       "rating": 76.0,
       "has_5g": false,
       "has_nfc": false,
@@ -35571,7 +35571,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme GT 5G",
-      "price": 30994,
+      "price": 349,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -35609,7 +35609,7 @@ const shopData: Product[] = [
     {
       "brand_name": "google",
       "title": "Google Pixel 5A",
-      "price": 32999,
+      "price": 399,
       "rating": 78.0,
       "has_5g": true,
       "has_nfc": true,
@@ -35647,7 +35647,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy F12",
-      "price": 10499,
+      "price": 149,
       "rating": 73.0,
       "has_5g": false,
       "has_nfc": false,
@@ -35685,7 +35685,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy F41 (6GB RAM + 128GB)",
-      "price": 19999,
+      "price": 249,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -35723,7 +35723,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A21s (6GB RAM + 128GB)",
-      "price": 17499,
+      "price": 249,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -35761,7 +35761,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Redmi 9A (6GB RAM + 128GB)",
-      "price": 10990,
+      "price": 149,
       "rating": 69.0,
       "has_5g": false,
       "has_nfc": false,
@@ -35799,7 +35799,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo V20 SE",
-      "price": 19000,
+      "price": 249,
       "rating": 82.0,
       "has_5g": false,
       "has_nfc": false,
@@ -35837,7 +35837,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A53 2020 (6GB RAM + 128GB)",
-      "price": 13990,
+      "price": 149,
       "rating": 70.0,
       "has_5g": false,
       "has_nfc": false,
@@ -35875,7 +35875,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 20",
-      "price": 10499,
+      "price": 149,
       "rating": 72.0,
       "has_5g": false,
       "has_nfc": false,
@@ -35913,7 +35913,7 @@ const shopData: Product[] = [
     {
       "brand_name": "itel",
       "title": "itel Vision 1 (3GB RAM + 32GB)",
-      "price": 5890,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -35951,7 +35951,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C11",
-      "price": 6490,
+      "price": 99,
       "rating": 61.0,
       "has_5g": false,
       "has_nfc": false,
@@ -35989,7 +35989,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Mi 10 5G (8GB RAM + 256GB)",
-      "price": 54999,
+      "price": 649,
       "rating": 88.0,
       "has_5g": true,
       "has_nfc": true,
@@ -36027,7 +36027,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y21 (2020)",
-      "price": 9990,
+      "price": 149,
       "rating": 65.0,
       "has_5g": false,
       "has_nfc": false,
@@ -36065,7 +36065,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oneplus",
       "title": "OnePlus Z",
-      "price": 24999,
+      "price": 299,
       "rating": 79.0,
       "has_5g": false,
       "has_nfc": false,
@@ -36103,7 +36103,7 @@ const shopData: Product[] = [
     {
       "brand_name": "sharp",
       "title": "Sharp Aquos R5G",
-      "price": 59990,
+      "price": 749,
       "rating": 88.0,
       "has_5g": false,
       "has_nfc": true,
@@ -36141,7 +36141,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei Mate 30 RS Porsche Design",
-      "price": 214990,
+      "price": 2549,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -36179,7 +36179,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A11",
-      "price": 9990,
+      "price": 149,
       "rating": 63.0,
       "has_5g": false,
       "has_nfc": false,
@@ -36217,7 +36217,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme C2",
-      "price": 6999,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -36255,7 +36255,7 @@ const shopData: Product[] = [
     {
       "brand_name": "huawei",
       "title": "Huawei Mate X",
-      "price": 169000,
+      "price": 1999,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -36293,7 +36293,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A9 Pro (2019)",
-      "price": 39990,
+      "price": 449,
       "rating": 78.0,
       "has_5g": false,
       "has_nfc": true,
@@ -36331,7 +36331,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy A7 (2018)",
-      "price": 21490,
+      "price": 249,
       "rating": 70.0,
       "has_5g": false,
       "has_nfc": false,
@@ -36369,7 +36369,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo Y55S",
-      "price": 13490,
+      "price": 149,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -36407,7 +36407,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "Poco C55",
-      "price": 7999,
+      "price": 99,
       "rating": 70.0,
       "has_5g": false,
       "has_nfc": false,
@@ -36445,7 +36445,7 @@ const shopData: Product[] = [
     {
       "brand_name": "blackview",
       "title": "Blackview BV5200 Pro",
-      "price": 8990,
+      "price": 149,
       "rating": 67.0,
       "has_5g": true,
       "has_nfc": true,
@@ -36483,7 +36483,7 @@ const shopData: Product[] = [
     {
       "brand_name": "honor",
       "title": "Honor X7a",
-      "price": 13999,
+      "price": 149,
       "rating": 75.0,
       "has_5g": false,
       "has_nfc": false,
@@ -36521,7 +36521,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "OPPO A58x",
-      "price": 13990,
+      "price": 149,
       "rating": 72.0,
       "has_5g": true,
       "has_nfc": false,
@@ -36559,7 +36559,7 @@ const shopData: Product[] = [
     {
       "brand_name": "doogee",
       "title": "Doogee S99",
-      "price": 14999,
+      "price": 199,
       "rating": 84.0,
       "has_5g": false,
       "has_nfc": true,
@@ -36597,7 +36597,7 @@ const shopData: Product[] = [
     {
       "brand_name": "lava",
       "title": "Lava X3",
-      "price": 6999,
+      "price": 99,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -36635,7 +36635,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Edge 40 Fusion",
-      "price": 42990,
+      "price": 549,
       "rating": 87.0,
       "has_5g": true,
       "has_nfc": true,
@@ -36673,7 +36673,7 @@ const shopData: Product[] = [
     {
       "brand_name": "ikall",
       "title": "iKall Z18",
-      "price": 6799,
+      "price": 99,
       "rating": 61.0,
       "has_5g": false,
       "has_nfc": false,
@@ -36711,7 +36711,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oukitel",
       "title": "Oukitel WP9",
-      "price": 25899,
+      "price": 349,
       "rating": 72.0,
       "has_5g": false,
       "has_nfc": true,
@@ -36749,7 +36749,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi 14",
-      "price": 54999,
+      "price": 649,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -36787,7 +36787,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola ThinkPhone",
-      "price": 49990,
+      "price": 599,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -36825,7 +36825,7 @@ const shopData: Product[] = [
     {
       "brand_name": "xiaomi",
       "title": "Xiaomi Civi 3",
-      "price": 32990,
+      "price": 399,
       "rating": 86.0,
       "has_5g": true,
       "has_nfc": true,
@@ -36863,7 +36863,7 @@ const shopData: Product[] = [
     {
       "brand_name": "realme",
       "title": "Realme Narzo 50i Prime (4GB RAM + 64GB)",
-      "price": 8720,
+      "price": 149,
       "rating": 64.0,
       "has_5g": false,
       "has_nfc": false,
@@ -36901,7 +36901,7 @@ const shopData: Product[] = [
     {
       "brand_name": "oppo",
       "title": "Oppo Find X6",
-      "price": 69990,
+      "price": 849,
       "rating": 89.0,
       "has_5g": true,
       "has_nfc": true,
@@ -36939,7 +36939,7 @@ const shopData: Product[] = [
     {
       "brand_name": "itel",
       "title": "itel A23s",
-      "price": 4787,
+      "price": 49,
       "rating": null,
       "has_5g": false,
       "has_nfc": false,
@@ -36977,7 +36977,7 @@ const shopData: Product[] = [
     {
       "brand_name": "google",
       "title": "Google Pixel 8 Pro",
-      "price": 70990,
+      "price": 849,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": true,
@@ -37015,7 +37015,7 @@ const shopData: Product[] = [
     {
       "brand_name": "vivo",
       "title": "Vivo X Fold 2",
-      "price": 119990,
+      "price": 1449,
       "rating": null,
       "has_5g": true,
       "has_nfc": true,
@@ -37053,7 +37053,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto Edge S30 Pro",
-      "price": 34990,
+      "price": 449,
       "rating": 83.0,
       "has_5g": true,
       "has_nfc": false,
@@ -37091,7 +37091,7 @@ const shopData: Product[] = [
     {
       "brand_name": "honor",
       "title": "Honor X8 5G",
-      "price": 14990,
+      "price": 199,
       "rating": 75.0,
       "has_5g": true,
       "has_nfc": false,
@@ -37129,7 +37129,7 @@ const shopData: Product[] = [
     {
       "brand_name": "poco",
       "title": "POCO X4 GT 5G (8GB RAM + 256GB)",
-      "price": 28990,
+      "price": 349,
       "rating": 85.0,
       "has_5g": true,
       "has_nfc": true,
@@ -37167,7 +37167,7 @@ const shopData: Product[] = [
     {
       "brand_name": "motorola",
       "title": "Motorola Moto G91 5G",
-      "price": 19990,
+      "price": 249,
       "rating": 80.0,
       "has_5g": true,
       "has_nfc": true,
@@ -37205,7 +37205,7 @@ const shopData: Product[] = [
     {
       "brand_name": "samsung",
       "title": "Samsung Galaxy M52s 5G",
-      "price": 24990,
+      "price": 299,
       "rating": 74.0,
       "has_5g": true,
       "has_nfc": false,
