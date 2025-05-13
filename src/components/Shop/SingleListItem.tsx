@@ -25,6 +25,7 @@ const SingleListItem = ({ item }: { item: Product }) => {
     dispatch(
       addItemToCart({
         ...item,
+        discountedPrice: item.price,
         quantity: 1,
       })
     );
@@ -35,6 +36,7 @@ const SingleListItem = ({ item }: { item: Product }) => {
       addItemToWishlist({
         ...item,
         status: "available",
+        discountedPrice: item.price,
         quantity: 1,
       })
     );
@@ -116,47 +118,11 @@ const SingleListItem = ({ item }: { item: Product }) => {
             </h3>
 
             <span className="flex items-center gap-2 font-medium text-lg">
-              <span className="text-dark">${item.discountedPrice}</span>
-              <span className="text-dark-4 line-through">${item.price}</span>
+              <span className="text-dark">${item.price}</span>
             </span>
           </div>
 
-          <div className="flex items-center gap-2.5 mb-2">
-            <div className="flex items-center gap-1">
-              <Image
-                src="/images/icons/icon-star.svg"
-                alt="star icon"
-                width={15}
-                height={15}
-              />
-              <Image
-                src="/images/icons/icon-star.svg"
-                alt="star icon"
-                width={15}
-                height={15}
-              />
-              <Image
-                src="/images/icons/icon-star.svg"
-                alt="star icon"
-                width={15}
-                height={15}
-              />
-              <Image
-                src="/images/icons/icon-star.svg"
-                alt="star icon"
-                width={15}
-                height={15}
-              />
-              <Image
-                src="/images/icons/icon-star.svg"
-                alt="star icon"
-                width={15}
-                height={15}
-              />
-            </div>
-
-            <p className="text-custom-sm">({item.reviews})</p>
-          </div>
+        
         </div>
       </div>
     </div>
