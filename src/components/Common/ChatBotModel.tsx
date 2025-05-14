@@ -199,7 +199,7 @@ const ChatBotModal = () => {
                 }`}
               >
                 {message.isBot && (
-                  <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center mr-2">
+                  <div className="w-8 h-8 rounded-full bg-blue flex items-center justify-center mr-2">
                     <svg
                       className="w-5 h-5 text-white"
                       fill="currentColor"
@@ -217,7 +217,7 @@ const ChatBotModal = () => {
                   className={`max-w-[70%] rounded-2xl p-3 ${
                     message.isBot
                       ? "bg-white text-gray-800 shadow-sm border border-gray-100"
-                      : "bg-blue-600 text-white"
+                      : "bg-blue text-white"
                   }`}
                 >
                   <p className="text-sm md:text-base">{message.text}</p>
@@ -226,7 +226,7 @@ const ChatBotModal = () => {
                   </span>
                 </div>
                 {!message.isBot && (
-                  <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center ml-2">
+                  <div className="w-8 h-8 rounded-full bg-blue flex items-center justify-center ml-2">
                     <span className="text-white text-sm">You</span>
                   </div>
                 )}
@@ -234,7 +234,7 @@ const ChatBotModal = () => {
             ))}
             {isLoading && (
               <div className="flex justify-start">
-                <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center mr-2">
+                <div className="w-8 h-8 rounded-full bg-blue flex items-center justify-center mr-2">
                   <svg
                     className="w-5 h-5 text-white"
                     fill="currentColor"
@@ -249,9 +249,9 @@ const ChatBotModal = () => {
                 </div>
                 <div className="max-w-[70%] rounded-2xl p-3 bg-white text-gray-800 shadow-sm border border-gray-100">
                   <div className="flex space-x-2">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full animate-bounce"></div>
-                    <div className="w-2 h-2 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: "0.2s" }}></div>
-                    <div className="w-2 h-2 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: "0.4s" }}></div>
+                    <div className="w-2 h-2 bg-blue rounded-full animate-bounce"></div>
+                    <div className="w-2 h-2 bg-blue rounded-full animate-bounce" style={{ animationDelay: "0.2s" }}></div>
+                    <div className="w-2 h-2 bg-blue rounded-full animate-bounce" style={{ animationDelay: "0.4s" }}></div>
                   </div>
                 </div>
               </div>
@@ -273,7 +273,7 @@ const ChatBotModal = () => {
             />
             <button
               onClick={handleSendMessage}
-              className={`bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-colors flex items-center gap-2 shadow-sm ${isLoading ? 'opacity-70 cursor-not-allowed' : ''}`}
+              className={`bg-blue text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-colors flex items-center gap-2 shadow-sm ${isLoading ? 'opacity-70 cursor-not-allowed' : ''}`}
               disabled={isLoading}
             >
               <span className="hidden sm:inline">{isLoading ? 'Sending...' : 'Send'}</span>
