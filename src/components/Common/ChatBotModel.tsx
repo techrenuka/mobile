@@ -4,17 +4,21 @@ import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "@/redux/store";
 import { closeChatBot } from "@/redux/features/chatBot-slice";
 import { useChatBotContext } from "@/app/context/ChatBotModelContext";
+import ProductCard, { Product } from "./ProductCard";
+import ReactMarkdown from "react-markdown";
 
 interface Message {
   text: string;
   isBot: boolean;
   timestamp: Date;
+  products?: Product[];
 }
 
 interface ApiResponse {
   question: string;
   answer: string;
   audio_file: string | null;
+  products?: Product[];
 }
 
 const ChatBotModal = () => {
@@ -72,6 +76,7 @@ const ChatBotModal = () => {
             text: data.answer || "Sorry, I couldn't process your request at the moment.",
             isBot: true,
             timestamp: new Date(),
+            products: data.products || undefined,
           },
         ]);
 
@@ -194,40 +199,64 @@ const ChatBotModal = () => {
             {messages.map((message, index) => (
               <div
                 key={index}
-                className={`flex ${
-                  message.isBot ? "justify-start" : "justify-end"
+                className={`flex flex-col ${
+                  message.isBot ? "items-start" : "items-end"
                 }`}
               >
-                {message.isBot && (
-                  <div className="w-8 h-8 rounded-full bg-blue flex items-center justify-center mr-2">
-                    <svg
-                      className="w-5 h-5 text-white"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
+                <div className={`flex ${
+                  message.isBot ? "justify-start" : "justify-end"
+                }`}>
+                  {message.isBot && (
+                    <div className="w-8 h-8 rounded-full bg-blue flex items-center justify-center mr-2">
+                      <svg
+                        className="w-5 h-5 text-white"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                  )}
+                  <div
+                    className={`max-w-[70%] rounded-2xl p-3 ${
+                      message.isBot
+                        ? "bg-white text-gray-800 shadow-sm border border-gray-100"
+                        : "bg-blue text-white"
+                    }`}
+                  >
+                    {message.isBot ? (
+                      <div className="markdown-content text-sm md:text-base">
+                        <ReactMarkdown>
+                          {message.text}
+                        </ReactMarkdown>
+                      </div>
+                    ) : (
+                      <p className="text-sm md:text-base">{message.text}</p>
+                    )}
+                    <span className="text-xs opacity-70 mt-1 block">
+                      {message.timestamp.toLocaleTimeString()}
+                    </span>
                   </div>
-                )}
-                <div
-                  className={`max-w-[70%] rounded-2xl p-3 ${
-                    message.isBot
-                      ? "bg-white text-gray-800 shadow-sm border border-gray-100"
-                      : "bg-blue text-white"
-                  }`}
-                >
-                  <p className="text-sm md:text-base">{message.text}</p>
-                  <span className="text-xs opacity-70 mt-1 block">
-                    {message.timestamp.toLocaleTimeString()}
-                  </span>
+                  {!message.isBot && (
+                    <div className="w-8 h-8 rounded-full bg-blue flex items-center justify-center ml-2">
+                      <span className="text-white text-sm">You</span>
+                    </div>
+                  )}
                 </div>
-                {!message.isBot && (
-                  <div className="w-8 h-8 rounded-full bg-blue flex items-center justify-center ml-2">
-                    <span className="text-white text-sm">You</span>
+                
+                {/* Product Recommendations */}
+                {message.isBot && message.products && message.products.length > 0 && (
+                  <div className="mt-3 ml-10 w-full">
+                    <h4 className="text-sm font-medium text-gray-700 mb-2">Recommended Products:</h4>
+                    <div className="flex flex-wrap gap-4 overflow-x-auto pb-2">
+                      {message.products.map((product, productIndex) => (
+                        <ProductCard key={productIndex} product={product} />
+                      ))}
+                    </div>
                   </div>
                 )}
               </div>
@@ -276,7 +305,7 @@ const ChatBotModal = () => {
               className={`bg-blue text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-colors flex items-center gap-2 shadow-sm ${isLoading ? 'opacity-70 cursor-not-allowed' : ''}`}
               disabled={isLoading}
             >
-              <span className="hidden sm:inline">{isLoading ? 'Sending...' : 'Send'}</span>
+              <span className="hidden sm:inline">{isLoading ? 'Thinking...' : 'Send'}</span>
               <svg
                 className="w-5 h-5"
                 fill="none"
