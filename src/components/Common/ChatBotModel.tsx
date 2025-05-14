@@ -11,6 +11,12 @@ interface Message {
   timestamp: Date;
 }
 
+interface ApiResponse {
+  question: string;
+  answer: string;
+  audio_file: string | null;
+}
+
 const ChatBotModal = () => {
   const dispatch = useDispatch();
   const isOpen = useSelector((state: RootState) => state.chatBotReducer.isOpen);
@@ -23,8 +29,10 @@ const ChatBotModal = () => {
     },
   ]);
   const [inputMessage, setInputMessage] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [audioPlaying, setAudioPlaying] = useState<HTMLAudioElement | null>(null);
 
-  const handleSendMessage = () => {
+  const handleSendMessage = async () => {
     if (inputMessage.trim()) {
       // Add user message
       setMessages((prev) => [
@@ -36,23 +44,77 @@ const ChatBotModal = () => {
         },
       ]);
 
-      // Simulate bot response
-      setTimeout(() => {
+      setIsLoading(true);
+
+      try {
+        // Call the chatbot API with the correct parameter name "question"
+        const response = await fetch("https://mobile-rag-python.onrender.com/ask", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+          },
+          body: JSON.stringify({
+            question: inputMessage // Changed from "message" to "question"
+          })
+        });
+
+        if (!response.ok) {
+          throw new Error(`Failed to get response from chatbot: ${response.status}`);
+        }
+
+        const data: ApiResponse = await response.json();
+        
+        // Add bot response
         setMessages((prev) => [
           ...prev,
           {
-            text: "Thank you for your message. Our team will get back to you soon.",
+            text: data.answer || "Sorry, I couldn't process your request at the moment.",
             isBot: true,
             timestamp: new Date(),
           },
         ]);
-      }, 1000);
 
-      setInputMessage("");
+        // Play audio if available
+        if (data.audio_file) {
+          // Stop any currently playing audio
+          if (audioPlaying) {
+            audioPlaying.pause();
+            audioPlaying.currentTime = 0;
+          }
+          
+          const audioUrl = `https://mobile-rag-python.onrender.com/audio/${data.audio_file}`;
+          const audio = new Audio(audioUrl);
+          audio.play();
+          setAudioPlaying(audio);
+        }
+      } catch (error) {
+        console.error("Error calling chatbot API:", error);
+        
+        // Add error message
+        setMessages((prev) => [
+          ...prev,
+          {
+            text: "Sorry, there was an error processing your request. Please try again later.",
+            isBot: true,
+            timestamp: new Date(),
+          },
+        ]);
+      } finally {
+        setIsLoading(false);
+        setInputMessage("");
+      }
     }
   };
 
   const handleClose = () => {
+    // Stop any playing audio
+    if (audioPlaying) {
+      audioPlaying.pause();
+      audioPlaying.currentTime = 0;
+      setAudioPlaying(null);
+    }
+    
     closeModal();
     dispatch(closeChatBot());
   };
@@ -102,7 +164,7 @@ const ChatBotModal = () => {
               </svg>
             </div>
             <div>
-              <h3 className="text-white font-semibold text-lg">AI Assistant</h3>
+              <h3 className="text-white font-semibold text-lg">Mobile Expert</h3>
             </div>
           </div>
           <button
@@ -137,7 +199,7 @@ const ChatBotModal = () => {
                 }`}
               >
                 {message.isBot && (
-                  <div className="w-8 h-8 rounded-full bg-blue flex items-center justify-center mr-2">
+                  <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center mr-2">
                     <svg
                       className="w-5 h-5 text-white"
                       fill="currentColor"
@@ -155,7 +217,7 @@ const ChatBotModal = () => {
                   className={`max-w-[70%] rounded-2xl p-3 ${
                     message.isBot
                       ? "bg-white text-gray-800 shadow-sm border border-gray-100"
-                      : "bg-blue text-white"
+                      : "bg-blue-600 text-white"
                   }`}
                 >
                   <p className="text-sm md:text-base">{message.text}</p>
@@ -165,11 +227,35 @@ const ChatBotModal = () => {
                 </div>
                 {!message.isBot && (
                   <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center ml-2">
-                    <span className="text-black text-sm">You</span>
+                    <span className="text-white text-sm">You</span>
                   </div>
                 )}
               </div>
             ))}
+            {isLoading && (
+              <div className="flex justify-start">
+                <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center mr-2">
+                  <svg
+                    className="w-5 h-5 text-white"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div className="max-w-[70%] rounded-2xl p-3 bg-white text-gray-800 shadow-sm border border-gray-100">
+                  <div className="flex space-x-2">
+                    <div className="w-2 h-2 bg-blue-600 rounded-full animate-bounce"></div>
+                    <div className="w-2 h-2 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: "0.2s" }}></div>
+                    <div className="w-2 h-2 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: "0.4s" }}></div>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         </div>
 
@@ -181,14 +267,16 @@ const ChatBotModal = () => {
               value={inputMessage}
               onChange={(e) => setInputMessage(e.target.value)}
               onKeyPress={(e) => e.key === "Enter" && handleSendMessage()}
-              placeholder="Ask me anything..."
+              placeholder="Ask about smartphones..."
               className="flex-1 border border-gray-200 rounded-full px-6 py-3 focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100 text-sm md:text-base transition-all duration-200"
+              disabled={isLoading}
             />
             <button
               onClick={handleSendMessage}
-              className="bg-blue text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-colors flex items-center gap-2 shadow-sm"
+              className={`bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-colors flex items-center gap-2 shadow-sm ${isLoading ? 'opacity-70 cursor-not-allowed' : ''}`}
+              disabled={isLoading}
             >
-              <span className="hidden sm:inline">Send</span>
+              <span className="hidden sm:inline">{isLoading ? 'Sending...' : 'Send'}</span>
               <svg
                 className="w-5 h-5"
                 fill="none"
