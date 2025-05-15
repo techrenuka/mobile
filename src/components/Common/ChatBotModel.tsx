@@ -6,12 +6,14 @@ import { closeChatBot } from "@/redux/features/chatBot-slice";
 import { useChatBotContext } from "@/app/context/ChatBotModelContext";
 import ProductCard, { Product } from "./ProductCard";
 import ReactMarkdown from "react-markdown";
+import shopData from "@/components/Shop/shopData";
 
 interface Message {
   text: string;
   isBot: boolean;
   timestamp: Date;
   products?: Product[];
+  showAsCard?: boolean;
 }
 
 interface ApiResponse {
@@ -25,6 +27,7 @@ const ChatBotModal = () => {
   const dispatch = useDispatch();
   const isOpen = useSelector((state: RootState) => state.chatBotReducer.isOpen);
   const { isModalOpen, closeModal } = useChatBotContext();
+  const selectedProduct = useSelector((state: RootState) => state.quickViewReducer.product);
   const [messages, setMessages] = useState<Message[]>([
     {
       text: "Hello! How can I help you today?",
@@ -38,6 +41,61 @@ const ChatBotModal = () => {
   const [isListening, setIsListening] = useState(false);
   const recognitionRef = useRef<typeof window.SpeechRecognition | null>(null);
   const carouselRefs = useRef<Map<number, HTMLDivElement>>(new Map()); // Ref for each carousel
+  const messagesEndRef = useRef<HTMLDivElement>(null); // Add this ref for auto-scrolling
+
+  // Add this function to scroll to bottom
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  // Add useEffect to scroll to bottom when messages change
+  useEffect(() => {
+    scrollToBottom();
+  }, [messages]);
+
+  // Add useEffect to display product details when modal opens
+  useEffect(() => {
+    if (isOpen && selectedProduct && selectedProduct.id) {
+      // Find the product in shopData by ID
+      const productDetails = shopData.find(product => product.id === selectedProduct.id);
+      
+      if (productDetails) {
+        // Format product details as markdown bullet points
+        const formattedDetails = formatProductDetails(productDetails);
+        
+        // Add a message with the product details
+        setMessages((prev) => [
+          ...prev,
+          {
+            text: formattedDetails,
+            isBot: true,
+            timestamp: new Date(),
+            showAsCard: false,
+          },
+        ]);
+      }
+    }
+  }, [isOpen, selectedProduct]);
+
+  // Function to format product details as markdown bullet points
+  const formatProductDetails = (product: Product): string => {
+    let details = `## ${product.title}\n\n`;
+    
+    details += `* **Brand:** ${product.brand_name || 'N/A'}\n`;
+    details += `* **Price:** $${product.price}\n`;
+    details += `* **Specs Score:** ${product.specs_score || 'N/A'}\n`;
+    
+    if (product.processor_brand) details += `* **Processor:** ${product.processor_brand}\n`;
+    if (product.ram_capacity) details += `* **RAM:** ${product.ram_capacity} GB\n`;
+    if (product.internal_memory) details += `* **Storage:** ${product.internal_memory} GB\n`;
+    if (product.screen_size) details += `* **Screen Size:** ${product.screen_size} inches\n`;
+    
+    details += `* **5G Support:** ${product.has_5g ? 'Yes' : 'No'}\n`;
+    details += `* **NFC Support:** ${product.has_nfc ? 'Yes' : 'No'}\n`;
+    
+    
+    return details;
+  };
 
   const handleSendMessage = async () => {
     if (inputMessage.trim()) {
@@ -77,7 +135,7 @@ const ChatBotModal = () => {
           model: p.model || p.title,
           title: p.title,
           price: p.price,
-          rating: p.rating,
+          rating: p.specs_score || 0,
           imgs: p.imgs || { 
             thumbnails: p.image_url ? [p.image_url] : undefined 
           },
@@ -235,15 +293,15 @@ const ChatBotModal = () => {
     <div
       className={`${
         isOpen ? "z-[9999]" : "hidden"
-      } fixed top-0 left-0 overflow-y-auto no-scrollbar w-full h-screen bg-dark/70 flex items-center justify-center p-4 sm:p-6 md:p-8`}
+      } fixed top-0 left-0 overflow-y-auto no-scrollbar w-full h-screen bg-dark/70 flex items-center justify-center p-2 sm:p-4 md:p-6 lg:p-8`}
     >
-      <div className="w-full bg-white max-w-[95%] sm:max-w-[85%] md:max-w-[75%] lg:max-w-[65%] h-[80vh] rounded-xl shadow-lg relative modal-content flex flex-col">
+      <div className="w-full bg-white max-w-[98%] xs:max-w-[95%] sm:max-w-[85%] md:max-w-[75%] lg:max-w-[65%] h-[90vh] xs:h-[85vh] sm:h-[80vh] rounded-xl shadow-lg relative modal-content flex flex-col">
         {/* Chat Header */}
-        <div className="bg-[#3c50e0] p-4 flex justify-between items-center rounded-t-xl">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-white/90 flex items-center justify-center shadow-md">
+        <div className="bg-[#3c50e0] p-2 sm:p-4 flex justify-between items-center rounded-t-xl">
+          <div className="flex items-center gap-2 sm:gap-3">
+            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-white/90 flex items-center justify-center shadow-md">
               <svg
-                className="w-6 h-6 text-blue-600"
+                className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600"
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -255,16 +313,16 @@ const ChatBotModal = () => {
               </svg>
             </div>
             <div>
-              <h3 className="text-white font-semibold text-lg">Mobile Expert</h3>
+              <h3 className="text-white font-semibold text-base sm:text-lg">Mobile Expert</h3>
             </div>
           </div>
           <button
             onClick={handleClose}
-            className="text-white/90 hover:text-white transition-colors p-2 hover:bg-white/10 rounded-lg"
+            className="text-white/90 hover:text-white transition-colors p-1 sm:p-2 hover:bg-white/10 rounded-lg"
             aria-label="Close chat"
           >
             <svg
-              className="w-6 h-6"
+              className="w-5 h-5 sm:w-6 sm:h-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -280,8 +338,8 @@ const ChatBotModal = () => {
         </div>
 
         {/* Chat Messages */}
-        <div className="flex-1 overflow-y-auto p-4 bg-gray-50">
-          <div className="space-y-4">
+        <div className="flex-1 overflow-y-auto p-2 sm:p-4 bg-gray-50">
+          <div className="space-y-3 sm:space-y-4">
             {messages.map((message, index) => (
               <div
                 key={index}
@@ -295,9 +353,9 @@ const ChatBotModal = () => {
                   }`}
                 >
                   {message.isBot && (
-                    <div className="w-8 h-8 rounded-full bg-blue flex items-center justify-center mr-2">
+                    <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-blue flex items-center justify-center mr-1 sm:mr-2 flex-shrink-0">
                       <svg
-                        className="w-5 h-5 text-white"
+                        className="w-4 h-4 sm:w-5 sm:h-5 text-white"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                       >
@@ -310,60 +368,60 @@ const ChatBotModal = () => {
                     </div>
                   )}
                   <div
-                    className={`max-w-[70%] rounded-2xl p-3 ${
+                    className={`max-w-[80%] xs:max-w-[75%] sm:max-w-[70%] rounded-2xl p-2 sm:p-3 ${
                       message.isBot
                         ? "bg-white text-gray-800 shadow-sm border border-gray-100"
                         : "bg-blue text-white"
                     }`}
                   >
                     {message.isBot ? (
-                      <div className="markdown-content text-sm md:text-base">
+                      <div className="markdown-content text-xs sm:text-sm md:text-base">
                         <ReactMarkdown>{message.text}</ReactMarkdown>
                       </div>
                     ) : (
-                      <p className="text-sm md:text-base">{message.text}</p>
+                      <p className="text-xs sm:text-sm md:text-base">{message.text}</p>
                     )}
-                    <span className="text-xs opacity-70 mt-1 block">
+                    <span className="text-[10px] xs:text-xs opacity-70 mt-1 block">
                       {message.timestamp.toLocaleTimeString()}
                     </span>
                   </div>
                   {!message.isBot && (
-                    <div className="w-8 h-8 rounded-full bg-blue flex items-center justify-center ml-2">
-                      <span className="text-white text-sm">You</span>
+                    <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-blue flex items-center justify-center ml-1 sm:ml-2 flex-shrink-0">
+                      <span className="text-white text-[10px] sm:text-sm">You</span>
                     </div>
                   )}
                 </div>
 
-                {/* Product Recommendations in Carousel */}
-                {message.isBot && message.products && message.products.length > 0 && (
-                  <div className="mt-3 ml-10 w-1/2">
-                    <h4 className="text-sm font-medium text-gray-300 mb-2">Recommended Products:</h4>
+                {/* Product Recommendations in Carousel - Only show if showAsCard is not false */}
+                {message.isBot && message.products && message.products.length > 0 && message.showAsCard !== false && (
+                  <div className="mt-2 sm:mt-3 pl-6 sm:pl-10 max-w-[90%] xs:max-w-[85%] sm:max-w-[80%] lg:max-w-[70%]">
+                    <h4 className="text-xs sm:text-sm font-medium text-gray-300 mb-1 sm:mb-2">Recommended Products:</h4>
                     <div className="relative">
                       {/* Carousel Container */}
                       <div
                         ref={(el) => {
                           if (el) carouselRefs.current.set(index, el);
                         }}
-                        className="flex overflow-x-auto overflow-y-hidden no-scrollbar snap-x snap-mandatory scroll-smooth gap-4 pb-2 whitespace-nowrap"
+                        className="flex overflow-x-auto overflow-y-hidden no-scrollbar snap-x snap-mandatory scroll-smooth gap-2 sm:gap-4 pb-2 whitespace-nowrap"
                       >
                         {message.products.map((product, productIndex) => (
-                          <div key={productIndex} className="snap-start flex-shrink-0 w-[250px] sm:w-[280px] min-w-[250px] sm:min-w-[280px]">
+                          <div key={productIndex} className="snap-start flex-shrink-0 w-[180px] xs:w-[220px] sm:w-[250px] md:w-[280px] min-w-[180px] xs:min-w-[220px] sm:min-w-[250px] md:min-w-[280px]">
                             <ProductCard product={product} />
                           </div>
                         ))}
                       </div>
 
-                      {/* Navigation Arrows */}
+                      {/* Navigation Arrows - Hide on smallest screens */}
                       {message.products.length > 1 && (
                         <>
                           {/* Left Arrow */}
                           <button
                             onClick={() => scrollLeft(index)}
-                            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-full p-2 shadow-md"
+                            className="hidden xs:block absolute -left-6 sm:-left-10 top-1/2 transform -translate-y-1/2 bg-blue hover:bg-gray-300 text-white rounded-full p-1 sm:p-2 shadow-md"
                             aria-label="Scroll left"
                           >
                             <svg
-                              className="w-5 h-5"
+                              className="w-4 h-4 sm:w-5 sm:h-5"
                               fill="none"
                               stroke="currentColor"
                               viewBox="0 0 24 24"
@@ -380,11 +438,11 @@ const ChatBotModal = () => {
                           {/* Right Arrow */}
                           <button
                             onClick={() => scrollRight(index)}
-                            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-full p-2 shadow-md"
+                            className="hidden xs:block absolute -right-6 sm:-right-10 top-1/2 transform -translate-y-1/2 bg-blue hover:bg-gray-300 text-white rounded-full p-1 sm:p-2 shadow-md"
                             aria-label="Scroll right"
                           >
                             <svg
-                              className="w-5 h-5"
+                              className="w-4 h-4 sm:w-5 sm:h-5"
                               fill="none"
                               stroke="currentColor"
                               viewBox="0 0 24 24"
@@ -406,9 +464,9 @@ const ChatBotModal = () => {
             ))}
             {isLoading && (
               <div className="flex justify-start">
-                <div className="w-8 h-8 rounded-full bg-blue flex items-center justify-center mr-2">
+                <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-blue flex items-center justify-center mr-1 sm:mr-2 flex-shrink-0">
                   <svg
-                    className="w-5 h-5 text-white"
+                    className="w-4 h-4 sm:w-5 sm:h-5 text-white"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -419,34 +477,36 @@ const ChatBotModal = () => {
                     />
                   </svg>
                 </div>
-                <div className="max-w-[70%] rounded-2xl p-3 bg-white text-gray-800 shadow-sm border border-gray-100">
-                  <div className="flex space-x-2">
-                    <div className="w-2 h-2 bg-blue rounded-full animate-bounce"></div>
+                <div className="max-w-[80%] xs:max-w-[75%] sm:max-w-[70%] rounded-2xl p-2 sm:p-3 bg-white text-gray-800 shadow-sm border border-gray-100">
+                  <div className="flex space-x-1 sm:space-x-2">
+                    <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue rounded-full animate-bounce"></div>
                     <div
-                      className="w-2 h-2 bg-blue rounded-full animate-bounce"
+                      className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue rounded-full animate-bounce"
                       style={{ animationDelay: "0.2s" }}
                     ></div>
                     <div
-                      className="w-2 h-2 bg-blue rounded-full animate-bounce"
+                      className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue rounded-full animate-bounce"
                       style={{ animationDelay: "0.4s" }}
                     ></div>
                   </div>
                 </div>
               </div>
             )}
+            {/* Add this div at the end of messages for auto-scrolling */}
+            <div ref={messagesEndRef} />
           </div>
         </div>
 
         {/* Chat Input */}
-        <div className="p-4 border-t bg-white rounded-b-xl">
-          <div className="flex gap-2">
+        <div className="p-2 sm:p-4 border-t bg-white rounded-b-xl">
+          <div className="flex gap-1 sm:gap-2">
             <input
               type="text"
               value={inputMessage}
               onChange={(e) => setInputMessage(e.target.value)}
               onKeyPress={(e) => e.key === "Enter" && handleSendMessage()}
               placeholder="Ask about smartphones..."
-              className="flex-1 border border-gray-200 rounded-full px-6 py-3 focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100 text-sm md:text-base transition-all duration-200"
+              className="flex-1 border border-gray-200 rounded-full px-3 sm:px-6 py-2 sm:py-3 focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100 text-xs sm:text-sm md:text-base transition-all duration-200"
               disabled={isLoading || isListening}
             />
 
@@ -454,12 +514,12 @@ const ChatBotModal = () => {
               onClick={toggleVoiceInput}
               className={`${
                 isListening ? "bg-red hover:bg-red" : "bg-blue"
-              } text-white px-4 py-3 rounded-full transition-colors flex items-center justify-center shadow-sm`}
+              } text-white px-2 sm:px-4 py-2 sm:py-3 rounded-full transition-colors flex items-center justify-center shadow-sm`}
               disabled={isLoading}
               aria-label={isListening ? "Stop recording" : "Start voice input"}
             >
               <svg
-                className={`w-5 h-5 ${isListening ? "text-white" : "text-gray"}`}
+                className={`w-4 h-4 sm:w-5 sm:h-5 ${isListening ? "text-white" : "text-gray"}`}
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -484,14 +544,14 @@ const ChatBotModal = () => {
 
             <button
               onClick={handleSendMessage}
-              className={`bg-blue text-white px-6 py-3 rounded-full hover:bg-blue transition-colors flex items-center gap-2 shadow-sm ${
+              className={`bg-blue text-white px-3 sm:px-6 py-2 sm:py-3 rounded-full hover:bg-blue transition-colors flex items-center gap-1 sm:gap-2 shadow-sm ${
                 isLoading ? "opacity-70 cursor-not-allowed" : ""
               }`}
               disabled={isLoading}
             >
-              <span className="hidden sm:inline">{isLoading ? "Sending..." : "Send"}</span>
+              <span className="hidden xs:inline text-xs sm:text-sm">{isLoading ? "Sending..." : "Send"}</span>
               <svg
-                className="w-5 h-5"
+                className="w-4 h-4 sm:w-5 sm:h-5"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -505,12 +565,6 @@ const ChatBotModal = () => {
               </svg>
             </button>
           </div>
-
-          {isListening && (
-            <div className="mt-2 text-center text-sm text-gray animate-pulse">
-              Listening... Speak now
-            </div>
-          )}
         </div>
       </div>
     </div>

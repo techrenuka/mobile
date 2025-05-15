@@ -48,6 +48,8 @@ const ProductItem = ({ item }: { item: Product }) => {
 
   // Chat Bot Quick View
   const handleChatBotModel = () => {
+    // Pass the product details to the chatbot
+    dispatch(updateQuickView({ ...item }));
     dispatch(toggleChatBot());
   };
 

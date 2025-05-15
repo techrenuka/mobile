@@ -18,7 +18,7 @@ const QuickViewModal = () => {
   const dispatch = useDispatch<AppDispatch>();
 
   // get the product data
-  const product = useAppSelector((state) => state.quickViewReducer.value);
+  const product = useAppSelector((state) => state.quickViewReducer.product);
 
   const [activePreview, setActivePreview] = useState(0);
 
@@ -161,7 +161,7 @@ const QuickViewModal = () => {
               <div className="flex flex-wrap items-center gap-5 mb-6">
                 <div className="flex items-center gap-1.5">
                   <span className="inline-flex font-medium text-md text-white bg-green rounded py-0.5 px-2.5">
-                    Specs Score - {product.rating}
+                    Specs Score - {product.specs_score}
                   </span>
                 </div>
 

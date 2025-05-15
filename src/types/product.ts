@@ -1,7 +1,7 @@
 export type Product = {
   id: number;
   brand_name: string;
-  rating: number;
+  specs_score: number;
   title: string;
   price: number;
   imgs?: {
