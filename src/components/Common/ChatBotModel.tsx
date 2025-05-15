@@ -16,7 +16,7 @@ interface Message {
 
 interface ApiResponse {
   question: string;
-  message: string; // Changed from "answer" to "message"
+  message: string;
   audio_file: string | null;
   products?: Product[];
 }
@@ -37,6 +37,7 @@ const ChatBotModal = () => {
   const [audioPlaying, setAudioPlaying] = useState<HTMLAudioElement | null>(null);
   const [isListening, setIsListening] = useState(false);
   const recognitionRef = useRef<typeof window.SpeechRecognition | null>(null);
+  const carouselRefs = useRef<Map<number, HTMLDivElement>>(new Map()); // Ref for each carousel
 
   const handleSendMessage = async () => {
     if (inputMessage.trim()) {
@@ -53,7 +54,6 @@ const ChatBotModal = () => {
       setIsLoading(true);
 
       try {
-        // Call the chatbot API with the correct parameter name "question"
         const response = await fetch("https://mobile-rag-python.onrender.com/ask", {
           method: "POST",
           headers: {
@@ -71,6 +71,25 @@ const ChatBotModal = () => {
 
         const data: ApiResponse = await response.json();
 
+        // Map backend product structure to Product interface
+        const mappedProducts = data.products?.map((p) => ({
+          brand_name: p.brand_name,
+          model: p.model || p.title,
+          title: p.title,
+          price: p.price,
+          rating: p.rating,
+          imgs: p.imgs || { 
+            thumbnails: p.image_url ? [p.image_url] : undefined 
+          },
+          // Optional fields not provided by backend can be omitted or set to undefined
+          processor_brand: p.processor_brand,
+          ram_capacity: p.ram_capacity,
+          internal_memory: p.internal_memory,
+          screen_size: p.screen_size,
+          has_5g: p.has_5g,
+          has_nfc: p.has_nfc,
+        })) || undefined;
+
         // Add bot response
         setMessages((prev) => [
           ...prev,
@@ -78,13 +97,12 @@ const ChatBotModal = () => {
             text: data.message || "Sorry, I couldn't process your request at the moment.",
             isBot: true,
             timestamp: new Date(),
-            products: data.products || undefined,
+            products: mappedProducts,
           },
         ]);
 
         // Play audio if available
         if (data.audio_file) {
-          // Stop any currently playing audio
           if (audioPlaying) {
             audioPlaying.pause();
             audioPlaying.currentTime = 0;
@@ -98,7 +116,6 @@ const ChatBotModal = () => {
       } catch (error) {
         console.error("Error calling chatbot API:", error);
 
-        // Add error message
         setMessages((prev) => [
           ...prev,
           {
@@ -124,7 +141,6 @@ const ChatBotModal = () => {
 
   const startListening = () => {
     if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
-      // Initialize speech recognition
       const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
       recognitionRef.current = new SpeechRecognition();
 
@@ -164,14 +180,12 @@ const ChatBotModal = () => {
   };
 
   const handleClose = () => {
-    // Stop any playing audio
     if (audioPlaying) {
       audioPlaying.pause();
       audioPlaying.currentTime = 0;
       setAudioPlaying(null);
     }
 
-    // Stop voice recognition if active
     if (isListening) {
       stopListening();
     }
@@ -180,8 +194,22 @@ const ChatBotModal = () => {
     dispatch(closeChatBot());
   };
 
+  // Carousel navigation functions
+  const scrollLeft = (messageIndex: number) => {
+    const carousel = carouselRefs.current.get(messageIndex);
+    if (carousel) {
+      carousel.scrollBy({ left: -300, behavior: 'smooth' }); // Adjust scroll distance as needed
+    }
+  };
+
+  const scrollRight = (messageIndex: number) => {
+    const carousel = carouselRefs.current.get(messageIndex);
+    if (carousel) {
+      carousel.scrollBy({ left: 300, behavior: 'smooth' }); // Adjust scroll distance as needed
+    }
+  };
+
   useEffect(() => {
-    // Closing modal while clicking outside
     function handleClickOutside(event: MouseEvent) {
       if (!(event.target as Element).closest(".modal-content")) {
         handleClose();
@@ -190,16 +218,13 @@ const ChatBotModal = () => {
 
     if (isOpen) {
       document.addEventListener("mousedown", handleClickOutside);
-      // Prevent scrolling when modal is open
       document.body.style.overflow = 'hidden';
     }
 
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
-      // Re-enable scrolling when modal is closed
       document.body.style.overflow = 'unset';
 
-      // Clean up speech recognition
       if (recognitionRef.current) {
         recognitionRef.current.stop();
       }
@@ -309,14 +334,71 @@ const ChatBotModal = () => {
                   )}
                 </div>
 
-                {/* Product Recommendations */}
+                {/* Product Recommendations in Carousel */}
                 {message.isBot && message.products && message.products.length > 0 && (
-                  <div className="mt-3 ml-10 w-full">
-                    <h4 className="text-sm font-medium text-gray-700 mb-2">Recommended Products:</h4>
-                    <div className="flex flex-wrap gap-4 overflow-x-auto pb-2">
-                      {message.products.map((product, productIndex) => (
-                        <ProductCard key={productIndex} product={product} />
-                      ))}
+                  <div className="mt-3 ml-10 w-1/2">
+                    <h4 className="text-sm font-medium text-gray-300 mb-2">Recommended Products:</h4>
+                    <div className="relative">
+                      {/* Carousel Container */}
+                      <div
+                        ref={(el) => {
+                          if (el) carouselRefs.current.set(index, el);
+                        }}
+                        className="flex overflow-x-auto no-scrollbar snap-x snap-mandatory scroll-smooth gap-4 pb-2"
+                      >
+                        {message.products.map((product, productIndex) => (
+                          <div key={productIndex} className="snap-start flex-shrink-0 w-[250px] sm:w-[280px]">
+                            <ProductCard product={product} />
+                          </div>
+                        ))}
+                      </div>
+
+                      {/* Navigation Arrows */}
+                      {message.products.length > 1 && (
+                        <>
+                          {/* Left Arrow */}
+                          <button
+                            onClick={() => scrollLeft(index)}
+                            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-full p-2 shadow-md"
+                            aria-label="Scroll left"
+                          >
+                            <svg
+                              className="w-5 h-5"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M15 19l-7-7 7-7"
+                              />
+                            </svg>
+                          </button>
+
+                          {/* Right Arrow */}
+                          <button
+                            onClick={() => scrollRight(index)}
+                            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-full p-2 shadow-md"
+                            aria-label="Scroll right"
+                          >
+                            <svg
+                              className="w-5 h-5"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M9 5l7 7-7 7"
+                              />
+                            </svg>
+                          </button>
+                        </>
+                      )}
                     </div>
                   </div>
                 )}
@@ -368,7 +450,6 @@ const ChatBotModal = () => {
               disabled={isLoading || isListening}
             />
 
-            {/* Voice Input Button */}
             <button
               onClick={toggleVoiceInput}
               className={`${
@@ -425,7 +506,6 @@ const ChatBotModal = () => {
             </button>
           </div>
 
-          {/* Voice recording indicator */}
           {isListening && (
             <div className="mt-2 text-center text-sm text-gray animate-pulse">
               Listening... Speak now
