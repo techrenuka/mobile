@@ -28,6 +28,17 @@ const Categories = () => {
     }
   }, []);
 
+  useEffect(() => {
+    // Add a small delay to ensure the component is fully mounted
+    const timer = setTimeout(() => {
+      if (sliderRef.current && sliderRef.current.swiper) {
+        sliderRef.current.swiper.update();
+      }
+    }, 300);
+    
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <section className="overflow-hidden pt-17.5">
       <div className="max-w-[1170px] w-full mx-auto px-4 sm:px-8 xl:px-0 pb-15 border-b border-gray-3">

@@ -344,10 +344,10 @@ const ChatBotModal = () => {
                         ref={(el) => {
                           if (el) carouselRefs.current.set(index, el);
                         }}
-                        className="flex overflow-x-auto no-scrollbar snap-x snap-mandatory scroll-smooth gap-4 pb-2"
+                        className="flex overflow-x-auto overflow-y-hidden no-scrollbar snap-x snap-mandatory scroll-smooth gap-4 pb-2 whitespace-nowrap"
                       >
                         {message.products.map((product, productIndex) => (
-                          <div key={productIndex} className="snap-start flex-shrink-0 w-[250px] sm:w-[280px]">
+                          <div key={productIndex} className="snap-start flex-shrink-0 w-[250px] sm:w-[280px] min-w-[250px] sm:min-w-[280px]">
                             <ProductCard product={product} />
                           </div>
                         ))}

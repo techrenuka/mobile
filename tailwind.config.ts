@@ -8,6 +8,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: ['snap-x', 'snap-start', 'snap-mandatory', 'no-scrollbar'],
   darkMode: "class",
   theme: {
     fontFamily: {
