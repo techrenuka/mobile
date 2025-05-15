@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "@/redux/store";
 import { closeChatBot } from "@/redux/features/chatBot-slice";
@@ -16,7 +16,7 @@ interface Message {
 
 interface ApiResponse {
   question: string;
-  answer: string;
+  message: string; // Changed from "answer" to "message"
   audio_file: string | null;
   products?: Product[];
 }
@@ -35,6 +35,8 @@ const ChatBotModal = () => {
   const [inputMessage, setInputMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [audioPlaying, setAudioPlaying] = useState<HTMLAudioElement | null>(null);
+  const [isListening, setIsListening] = useState(false);
+  const recognitionRef = useRef<typeof window.SpeechRecognition | null>(null);
 
   const handleSendMessage = async () => {
     if (inputMessage.trim()) {
@@ -56,11 +58,11 @@ const ChatBotModal = () => {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            "Accept": "application/json"
+            "Accept": "application/json",
           },
           body: JSON.stringify({
-            question: inputMessage // Changed from "message" to "question"
-          })
+            question: inputMessage,
+          }),
         });
 
         if (!response.ok) {
@@ -68,12 +70,12 @@ const ChatBotModal = () => {
         }
 
         const data: ApiResponse = await response.json();
-        
+
         // Add bot response
         setMessages((prev) => [
           ...prev,
           {
-            text: data.answer || "Sorry, I couldn't process your request at the moment.",
+            text: data.message || "Sorry, I couldn't process your request at the moment.",
             isBot: true,
             timestamp: new Date(),
             products: data.products || undefined,
@@ -87,7 +89,7 @@ const ChatBotModal = () => {
             audioPlaying.pause();
             audioPlaying.currentTime = 0;
           }
-          
+
           const audioUrl = `https://mobile-rag-python.onrender.com/audio/${data.audio_file}`;
           const audio = new Audio(audioUrl);
           audio.play();
@@ -95,7 +97,7 @@ const ChatBotModal = () => {
         }
       } catch (error) {
         console.error("Error calling chatbot API:", error);
-        
+
         // Add error message
         setMessages((prev) => [
           ...prev,
@@ -112,6 +114,55 @@ const ChatBotModal = () => {
     }
   };
 
+  const toggleVoiceInput = () => {
+    if (isListening) {
+      stopListening();
+    } else {
+      startListening();
+    }
+  };
+
+  const startListening = () => {
+    if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
+      // Initialize speech recognition
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      recognitionRef.current = new SpeechRecognition();
+
+      recognitionRef.current.continuous = false;
+      recognitionRef.current.interimResults = false;
+      recognitionRef.current.lang = 'en-US';
+
+      recognitionRef.current.onstart = () => {
+        setIsListening(true);
+      };
+
+      recognitionRef.current.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        setInputMessage(transcript);
+      };
+
+      recognitionRef.current.onerror = (event) => {
+        console.error('Speech recognition error', event.error);
+        setIsListening(false);
+      };
+
+      recognitionRef.current.onend = () => {
+        setIsListening(false);
+      };
+
+      recognitionRef.current.start();
+    } else {
+      alert('Speech recognition is not supported in your browser. Please try using Chrome or Edge.');
+    }
+  };
+
+  const stopListening = () => {
+    if (recognitionRef.current) {
+      recognitionRef.current.stop();
+      setIsListening(false);
+    }
+  };
+
   const handleClose = () => {
     // Stop any playing audio
     if (audioPlaying) {
@@ -119,15 +170,20 @@ const ChatBotModal = () => {
       audioPlaying.currentTime = 0;
       setAudioPlaying(null);
     }
-    
+
+    // Stop voice recognition if active
+    if (isListening) {
+      stopListening();
+    }
+
     closeModal();
     dispatch(closeChatBot());
   };
 
   useEffect(() => {
-    // closing modal while clicking outside
-    function handleClickOutside(event) {
-      if (!event.target.closest(".modal-content")) {
+    // Closing modal while clicking outside
+    function handleClickOutside(event: MouseEvent) {
+      if (!(event.target as Element).closest(".modal-content")) {
         handleClose();
       }
     }
@@ -142,6 +198,11 @@ const ChatBotModal = () => {
       document.removeEventListener("mousedown", handleClickOutside);
       // Re-enable scrolling when modal is closed
       document.body.style.overflow = 'unset';
+
+      // Clean up speech recognition
+      if (recognitionRef.current) {
+        recognitionRef.current.stop();
+      }
     };
   }, [isOpen]);
 
@@ -151,7 +212,7 @@ const ChatBotModal = () => {
         isOpen ? "z-[9999]" : "hidden"
       } fixed top-0 left-0 overflow-y-auto no-scrollbar w-full h-screen bg-dark/70 flex items-center justify-center p-4 sm:p-6 md:p-8`}
     >
-      <div className="w-full bg-white max-w-[95%] sm:max-w-[85%] md:max-w-[75%] lg:max-w-[65%] h-[80vh] rounded-xl shadow-lg bg-[] relative modal-content flex flex-col">
+      <div className="w-full bg-white max-w-[95%] sm:max-w-[85%] md:max-w-[75%] lg:max-w-[65%] h-[80vh] rounded-xl shadow-lg relative modal-content flex flex-col">
         {/* Chat Header */}
         <div className="bg-[#3c50e0] p-4 flex justify-between items-center rounded-t-xl">
           <div className="flex items-center gap-3">
@@ -203,9 +264,11 @@ const ChatBotModal = () => {
                   message.isBot ? "items-start" : "items-end"
                 }`}
               >
-                <div className={`flex ${
-                  message.isBot ? "justify-start" : "justify-end"
-                }`}>
+                <div
+                  className={`flex ${
+                    message.isBot ? "justify-start" : "justify-end"
+                  }`}
+                >
                   {message.isBot && (
                     <div className="w-8 h-8 rounded-full bg-blue flex items-center justify-center mr-2">
                       <svg
@@ -230,9 +293,7 @@ const ChatBotModal = () => {
                   >
                     {message.isBot ? (
                       <div className="markdown-content text-sm md:text-base">
-                        <ReactMarkdown>
-                          {message.text}
-                        </ReactMarkdown>
+                        <ReactMarkdown>{message.text}</ReactMarkdown>
                       </div>
                     ) : (
                       <p className="text-sm md:text-base">{message.text}</p>
@@ -247,7 +308,7 @@ const ChatBotModal = () => {
                     </div>
                   )}
                 </div>
-                
+
                 {/* Product Recommendations */}
                 {message.isBot && message.products && message.products.length > 0 && (
                   <div className="mt-3 ml-10 w-full">
@@ -279,8 +340,14 @@ const ChatBotModal = () => {
                 <div className="max-w-[70%] rounded-2xl p-3 bg-white text-gray-800 shadow-sm border border-gray-100">
                   <div className="flex space-x-2">
                     <div className="w-2 h-2 bg-blue rounded-full animate-bounce"></div>
-                    <div className="w-2 h-2 bg-blue rounded-full animate-bounce" style={{ animationDelay: "0.2s" }}></div>
-                    <div className="w-2 h-2 bg-blue rounded-full animate-bounce" style={{ animationDelay: "0.4s" }}></div>
+                    <div
+                      className="w-2 h-2 bg-blue rounded-full animate-bounce"
+                      style={{ animationDelay: "0.2s" }}
+                    ></div>
+                    <div
+                      className="w-2 h-2 bg-blue rounded-full animate-bounce"
+                      style={{ animationDelay: "0.4s" }}
+                    ></div>
                   </div>
                 </div>
               </div>
@@ -298,14 +365,50 @@ const ChatBotModal = () => {
               onKeyPress={(e) => e.key === "Enter" && handleSendMessage()}
               placeholder="Ask about smartphones..."
               className="flex-1 border border-gray-200 rounded-full px-6 py-3 focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100 text-sm md:text-base transition-all duration-200"
-              disabled={isLoading}
+              disabled={isLoading || isListening}
             />
+
+            {/* Voice Input Button */}
+            <button
+              onClick={toggleVoiceInput}
+              className={`${
+                isListening ? "bg-red hover:bg-red" : "bg-blue"
+              } text-white px-4 py-3 rounded-full transition-colors flex items-center justify-center shadow-sm`}
+              disabled={isLoading}
+              aria-label={isListening ? "Stop recording" : "Start voice input"}
+            >
+              <svg
+                className={`w-5 h-5 ${isListening ? "text-white" : "text-gray"}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                {isListening ? (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z M9 10a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z"
+                  />
+                ) : (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"
+                  />
+                )}
+              </svg>
+            </button>
+
             <button
               onClick={handleSendMessage}
-              className={`bg-blue text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-colors flex items-center gap-2 shadow-sm ${isLoading ? 'opacity-70 cursor-not-allowed' : ''}`}
+              className={`bg-blue text-white px-6 py-3 rounded-full hover:bg-blue transition-colors flex items-center gap-2 shadow-sm ${
+                isLoading ? "opacity-70 cursor-not-allowed" : ""
+              }`}
               disabled={isLoading}
             >
-              <span className="hidden sm:inline">{isLoading ? 'Thinking...' : 'Send'}</span>
+              <span className="hidden sm:inline">{isLoading ? "Sending..." : "Send"}</span>
               <svg
                 className="w-5 h-5"
                 fill="none"
@@ -321,6 +424,13 @@ const ChatBotModal = () => {
               </svg>
             </button>
           </div>
+
+          {/* Voice recording indicator */}
+          {isListening && (
+            <div className="mt-2 text-center text-sm text-gray animate-pulse">
+              Listening... Speak now
+            </div>
+          )}
         </div>
       </div>
     </div>
