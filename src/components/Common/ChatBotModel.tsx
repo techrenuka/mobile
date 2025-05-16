@@ -338,11 +338,11 @@ const ChatBotModal = () => {
     <div
       className={`${
         isOpen ? "z-[9999]" : "hidden"
-      } fixed top-0 left-0 overflow-y-auto no-scrollbar w-full h-screen bg-dark/70 flex items-center justify-center p-2 sm:p-4 md:p-6 lg:p-8`}
+      } fixed top-0 left-0 w-full h-screen bg-dark/70 flex items-center justify-center p-2 sm:p-4 md:p-6 lg:p-8 overflow-hidden`}
     >
-      <div className="w-full bg-white max-w-[98%] xs:max-w-[95%] sm:max-w-[85%] md:max-w-[75%] lg:max-w-[65%] h-[90vh] xs:h-[85vh] sm:h-[80vh] rounded-xl shadow-lg relative modal-content flex flex-col">
+      <div className="w-full bg-white max-w-[98%] xs:max-w-[95%] sm:max-w-[85%] md:max-w-[75%] lg:max-w-[65%] h-[90vh] xs:h-[85vh] sm:h-[80vh] rounded-xl shadow-lg relative modal-content flex flex-col overflow-hidden">
         {/* Chat Header */}
-        <div className="bg-[#3c50e0] p-2 sm:p-4 flex justify-between items-center rounded-t-xl">
+        <div className="bg-[#3c50e0] p-2 sm:p-4 flex justify-between items-center rounded-t-xl flex-shrink-0">
           <div className="flex items-center gap-2 sm:gap-3">
             <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-white/90 flex items-center justify-center shadow-md">
               <svg
@@ -383,7 +383,7 @@ const ChatBotModal = () => {
         </div>
 
         {/* Chat Messages */}
-        <div className="flex-1 overflow-y-auto p-2 sm:p-4 bg-gray-50">
+        <div className="flex-1 overflow-y-auto p-2 sm:p-4 bg-gray-50 touch-auto">
           <div className="space-y-3 sm:space-y-4">
             {messages.map((message, index) => (
               <div
