@@ -159,13 +159,58 @@ const ChatBotModal = () => {
           },
         ]);
 
-        // Play audio if available
-        if (data.audio_file) {
+        // Play audio using Eleven Labs if message is available
+        if (data.message) {
           if (audioPlaying) {
             audioPlaying.pause();
             audioPlaying.currentTime = 0;
           }
-
+          
+          try {
+            // Call Eleven Labs API to convert text to speech
+            const elevenLabsResponse = await fetch("https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                "xi-api-key": "sk_038eaf593dbc3df4d29384884be89093dc6ed8cffbfdb217", 
+              },
+              body: JSON.stringify({
+                text: data.message,
+                model_id: "eleven_flash_v2_5",
+                voice_settings: {
+                  stability: 0.5,
+                  similarity_boost: 0.5,
+                }
+              }),
+            });
+            
+            if (elevenLabsResponse.ok) {
+              const audioBlob = await elevenLabsResponse.blob();
+              const audioUrl = URL.createObjectURL(audioBlob);
+              const audio = new Audio(audioUrl);
+              audio.play();
+              setAudioPlaying(audio);
+            } else {
+              // Fallback to original audio if Eleven Labs fails
+              if (data.audio_file) {
+                const audioUrl = `https://mobile-rag-python.onrender.com/audio/${data.audio_file}`;
+                const audio = new Audio(audioUrl);
+                audio.play();
+                setAudioPlaying(audio);
+              }
+            }
+          } catch (elevenLabsError) {
+            console.error("Error with Eleven Labs API:", elevenLabsError);
+            // Fallback to original audio
+            if (data.audio_file) {
+              const audioUrl = `https://mobile-rag-python.onrender.com/audio/${data.audio_file}`;
+              const audio = new Audio(audioUrl);
+              audio.play();
+              setAudioPlaying(audio);
+            }
+          }
+        } else if (data.audio_file) {
+          // Fallback to original audio if no message to synthesize
           const audioUrl = `https://mobile-rag-python.onrender.com/audio/${data.audio_file}`;
           const audio = new Audio(audioUrl);
           audio.play();
@@ -417,7 +462,7 @@ const ChatBotModal = () => {
                           {/* Left Arrow */}
                           <button
                             onClick={() => scrollLeft(index)}
-                            className="hidden xs:block absolute -left-6 sm:-left-10 top-1/2 transform -translate-y-1/2 bg-blue hover:bg-gray-300 text-white rounded-full p-1 sm:p-2 shadow-md"
+                            className="hidden lg:block absolute -left-6 sm:-left-10 top-1/2 transform -translate-y-1/2 bg-blue hover:bg-gray-300 text-white rounded-full p-1 sm:p-2 shadow-md"
                             aria-label="Scroll left"
                           >
                             <svg
@@ -438,7 +483,7 @@ const ChatBotModal = () => {
                           {/* Right Arrow */}
                           <button
                             onClick={() => scrollRight(index)}
-                            className="hidden xs:block absolute -right-6 sm:-right-10 top-1/2 transform -translate-y-1/2 bg-blue hover:bg-gray-300 text-white rounded-full p-1 sm:p-2 shadow-md"
+                            className="hidden lg:block absolute -right-6 sm:-right-10 top-1/2 transform -translate-y-1/2 bg-blue hover:bg-gray-300 text-white rounded-full p-1 sm:p-2 shadow-md"
                             aria-label="Scroll right"
                           >
                             <svg
